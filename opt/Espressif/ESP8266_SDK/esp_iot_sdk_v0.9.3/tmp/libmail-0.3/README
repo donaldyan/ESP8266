@@ -1,0 +1,54 @@
+
+libmail - A mail handling library
+
+-- Description --
+
+libmail is a C library which intend to ease the development of mail
+checking programs, providing, in the course of time, full support of mail
+checking protocols such as POP3 and IMAP along with efficiency and security.
+
+-- Prerequisities --
+
+To compile and use libmail along with SASL you must have cyrus-sasl-2.x.y
+installed in your system, You can find cyrus-sasl at :
+
+http://asg.web.cmu.edu/sasl/sasl-library.html
+
+To compile and use libmail along with TLS 1.0/SSL 3.0 you must have
+GnuTLS-2.x.y installed in your system, You can find GnuTLS at :
+
+http://www.gnutls.org
+
+-- Installation --
+
+To install libmail you should read the INSTALL file in the current
+directory.
+
+-- Linking --
+
+To link your programs against libmail try the following :
+
+$ gcc -o foobar foobar.c -lmail
+
+provided that you have a properly configured system (hint: /etc/ld.so.conf)
+
+-- SVN --
+
+You can fetch libmail's current source code through :
+
+svn co https://libmail.svn.sourceforge.net/svnroot/libmail/trunk/libmail your_working_path 
+
+-- Notes --
+
+libmail is hosted on SourceForge (http://libmail.sourceforge.net)
+
+Bugs to : http://sourceforge.net/tracker/?group_id=251539&atid=1126791
+Mailing lists at : http://sourceforge.net/mail/?group_id=251539
+
+A final note : I 'm maintaining libmail in my Copious Free Time (TM) and as
+the general open source philosophy suggests, any help would be very
+appreciated, especially on porting issues.
+
+Enjoy! 
+
+Dimitris Mandalidis

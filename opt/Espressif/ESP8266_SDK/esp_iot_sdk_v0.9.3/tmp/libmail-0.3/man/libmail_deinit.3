@@ -1,0 +1,35 @@
+.\" This file is part of libmail.
+.\" 
+.\"	(c) 2009 - Dimitris Mandalidis <mandas@users.sourceforge.net>
+.\"
+.\" libmail is free software: you can redistribute it and/or modify
+.\" it under the terms of the GNU General Public License as published by
+.\" the Free Software Foundation, either version 3 of the License, or
+.\" (at your option) any later version.
+.\" 
+.\" libmail is distributed in the hope that it will be useful,
+.\" but WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\" 
+.\" You should have received a copy of the GNU General Public License
+.\" along with libmail.  If not, see <http://www.gnu.org/licenses/>.
+.TH LIBMAIL_DEINIT 3 "2009-06-18" "version 0.3" "libmail - A mail handling library"
+.SH NAME
+libmail_deinit - Deinitializes libmail's internal data
+.SH SYNOPSIS
+.nf
+.B #include <libmail/libmail.h>
+.sp
+.B void libmail_deinit(void);
+.sp
+.fi
+.SH DESCRIPTION
+Deinitialize global data which were initialized through
+.B libmail_init().
+It should be called when the program has done using the libmail
+functionality.
+.SH "SEE ALSO"
+.BR "libmail_init" "(3)"
+.SH "AUTHOR"
+Dimitris Mandalidis <mandas AT users DOT sourceforge DOT net>

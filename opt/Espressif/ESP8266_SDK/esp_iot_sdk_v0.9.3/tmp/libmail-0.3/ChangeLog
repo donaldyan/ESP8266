@@ -1,0 +1,492 @@
+
+2009-07-16 Dimitris Mandalidis <mandas@users.sourceforge.net>
+
+	* configure.ac: Version changed to 0.3
+
+	* libmail/Makefile.am:  version-info changed to 2:1:0
+
+2009-06-20 Dimitris Mandalidis <mandas@users.sourceforge.net>
+	
+	* ------ libmail-0.3-rc1 released ------
+
+	* man/*: man pages created/updated.
+
+2009-06-18 Dimitris Mandalidis <mandas@users.sourceforge.net>
+
+	* man/*: man pages created/updated.
+
+2009-06-13 Dimitris Mandalidis <mandas@users.sourceforge.net>
+
+	* libmail/: Fix {de,}initialization of SASL and TLS.
+
+	* libmail/libmail.h: Add sasl_session field to libmail_auth_t structure
+
+	* libmail/libmail.c: Add setters for fields of data structures.
+
+	* libmail/pop3.c: Introduce states and valid state checking.
+
+	* libmail/imap4.c: Introduce states and valid state checking.
+
+2009-06-13 Dimitris Mandalidis <mandas@users.sourceforge.net>
+
+	* libmail/libmail.h: Add content_types and inet_families
+	enumerations. 
+
+	* libmail/libmail.c: libmail_init_pop3_mailbox(),
+	libmail_init_imap4_mailbox(), libmail_init_mbox_mailbox(),
+	libmail_init_maildir_mailbox() functions created which initialize the
+	data structures to default values. 
+
+	* libmail/Makefile.am: libmail.c added to libmail_la_SOURCES
+
+	* libmail/libmail.c: File created.
+
+	* libmail/maildir.[ch]: Changed to reflect previous changes.
+
+	* libmail/mbox.[ch]: Changed to reflect previous changes.
+
+	* libmail/libmail.h: libmail_local_mailbox_t splitted to
+	mbox_mailbox_t and maildir_mailbox_t.
+
+	* libmail/libmail.h: Add enum states AUTHORIZATION, TRANSACTION.
+
+	* libmail/libmail.h: Add state field (short) in libmail_remote_server_t
+
+	* libmail/commons.c: read_response() which reads the whole response
+	from server either in plain or secure format.
+
+	* libmail/commons.c: readln() changed to read only plain data.
+
+2009-06-08 Dimitris Mandalidis <mandas@users.sourceforge.net>
+
+	* libmail/sasl.c,imap4.c,pop3.c: Reflect previous changes
+
+	* libmail/commons.c: readln() reads a line from remote server
+
+	* libmail/commons.c: send_command() changed not to read back from
+	stream
+
+	* man/libmail_{imap4,pop3}.3: Add LIBMAIL_TLSERROR error code
+
+	* libmail/commons.c: send_command() now TLS/SSL compatible
+
+	* libmail/error.[ch]: Add LIBMAIL_TLSERROR error code 
+
+	* libmail/*.c: Remove unused #ifdef's for assert()
+
+	* man/libmail_{imap4,pop3}.3: Add LIBMAIL_USE_{PLAIN,SECURE} macro
+	documentation.
+
+	* libmail/libmail.h: Add LIBMAIL_USE_{PLAIN,SECURE} macros.
+
+	* libmail/{pop3,imap4.c}: Modify calls to send_command()
+
+	* libmail/commons.[ch]: Add libmail_remote_server_t * variable to send_command()
+
+2009-06-07 Dimitris Mandalidis <mandas@users.sourceforge.net>
+	
+	* configure.ac: Add support for specifying buffer size, and add
+	consistent error checking
+
+	* libmail/tls.[ch]: Files added.
+
+	* configure.ac: Conditional compile TLS code
+
+	* man/libmail_{imap4,pop3}.3: Add note for --enable-apop and
+	--enable-sasl and --enable-tls
+
+	* configure.ac: Conditional compile APOP code.
+
+	* configure.ac: Conditional compile SASL code.
+
+	* libmail/*: IPV4 and IPV6 macros changed to LIBMAIL_IPV4 and
+	LIBMAIL_IPV6. BUFSIZE macro changed to LIBMAIL_BUFSIZE.
+
+2009-05-31 Dimitris Mandalidis <mandas@users.sourceforge.net>
+	
+	* man/*.3: Examples updated.
+
+	* man/libmail_{imap4,pop3}.3: Reflect previous changes.
+
+	* libmail/imap4.[ch]: Reflect previous changes.
+
+	* libmail/pop3.[ch]: Reflect previous changes.
+
+	* libmail/libmail.h: libmail_remote_server_t added. pop3_server_t and
+	imap4_server_t changed to pop3_mailbox_t and imap4_mailbox_t
+	respectively. 
+
+2009-05-30 Dimitris Mandalidis <mandas@users.sourceforge.net>
+	
+	* man/libmail_mbox.3: mbox_t substituted by libmail_local_mailbox_t.
+	Date and version updated.
+
+	* man/libmail_maildir.3: maildir_t substituted by libmail_local_mailbox_t.
+	Date and version updated.
+
+	* libmail/maildir.[ch]: maildir_t substituted by libmail_local_mailbox_t.
+
+	* libmail/mbox.[ch]: mbox_t substituted bu libmail_local_mailbox_t.
+
+	* libmail/libmail.h: mbox_t and maildir_t unified under
+	libmail_local_mailbox_t.
+
+2009-05-29 Dimitris Mandalidis <mandas@users.sourceforge.net>
+
+	* libmail/libmail.h: pop3_auth_t and imap4_auth_t unified under libmail_auth_t.
+
+	* libmail/imap4.c: Substitute IMAP4_BUFSIZE with BUFSIZE.
+
+	* libmail/pop3.c: Substitute POP3_BUFSIZE with BUFSIZE.
+
+	* libmail/libmail.h: Substitute {IMAP4,POP3}_BUFSIZE with BUFSIZE,
+	{IMAP4,POP3}_BUFSIZE declaration removed.
+
+	* man/libmail_{pop3,imap4}.3: Substitute {IMAP4,POP3}_BUFSIZE with
+	BUFSIZE
+
+	* libmail/libmail.h: BUFSIZE macro added.
+
+	* man/libmail_pop3.3: Fixed *_MAX_{COMMAND,RESPONSE} typo, date and
+	version updated. pop3_auth_t became libmail_auth_t.
+
+	* man/libmail_imap4.3: mailbox field moved from imap4_auth_t to
+	imap4_server_t, fixed *_MAX_COMMAND macro typo, date and version
+	updated. imap4_auth_t became libmail_auth_t.
+
+	* libmail/imap4.c: mailbox field moved from imap4_auth_t to 
+	imap4_server_t
+
+	* libmail/libmail.h: mailbox field moved from imap4_auth_t to
+	imap4_server_t
+
+	* libmail/libmail.h: Add use_secure (short) field in pop3_server_t and
+	imap4_server_t.
+
+	* libmail/maildir.[ch]: maildir_server_t renamed to maildir_t.
+
+	* libmail/mbox.[ch]: mbox_server_t renamed to mbox_t.
+
+	* man/libmail_maildir.3: maildir_server_t renamed to maildir_t. Date
+	and version updated.
+
+	* man/libmail_mbox.3: mbox_server_t renamed to mbox_t. Date and version 
+	updated.
+
+	* libmail/libmail.h: maildir_server_t and mbox_server_t renamed to
+	maildir_t and mbox_t respectively.
+
+	* libmail/Makefile.am: version-info changed to 2:0:0
+
+	* configure.ac: Version changed to 0.3-rc1
+
+2009-03-29 Dimitris Mandalidis <mandas@users.sourceforge.net>
+
+	* ------ libmail-0.2 released ------
+
+	* man/libmail_pop3.3: Update return values
+
+	* libmail/error.c: Add LIBMAIL_POP3_INVALID_USER, LIBMAIL_POP3_INVALID_PASSWORD 
+	LIBMAIL_POP3_MD5_ERROR, LIBMAIL_IMAP4_INVALID_USERPASS error codes and their 
+	respective descriptions.
+
+	* libmail/error.c: Add LIBMAIL_IMAP4_INVALID_MAILBOX error code and
+	description, returned by imap4_check() when the selected mailbox doesn't
+	exist.
+
+	* man/*: Update examples.
+	
+	* libmail/libmail.h: endpeer_t and server_t declarations removed.
+
+	* libmail/sasl.c: Make private functions static and remove from sasl.h
+
+	* libmail/pop3.c: Remove sasl_pop3_authenticate(), call
+	sasl_authenticate() remove unused #include's
+
+	* libmail/imap4.c: Remove sasl_imap4_authenticate(), call
+	sasl_authenticate() remove unused #include's
+
+	* libmail/sasl.c: Generic sasl_authenticate() created.
+
+	* man/libmail_mbox.3: Add LIBMAIL_MBOX_ISDIR as a return value.
+
+	* libmail/error.[ch]: LIBMAIL_MBOX_ISDIR error and description added.
+
+	* libmail/mbox.c: Fixed bug #2720721 
+	
+	* man/libmail_imap4.3: Fixed typo in example.
+
+	* libmail/error.c: libmail_strerror() returns strerror(errno) on
+	LIBMAIL_SYSERROR
+
+2009-03-25 Dimitris Mandalidis <mandas@users.sourceforge.net>
+
+	* libmail/pop3.c: Generalizing sasl_pop3_authenticate()
+
+	* libmail/imap4.c: Generalizing sasl_imap4_authenticate()
+
+	* libmail/imap4.c: SASL step call sasl_command_success()
+
+	* libmail/pop3.c: pop3_command_success() now checks against "+OK", and
+	SASL step call sasl_command_success()
+
+	* libmail/sasl.c: Add sasl_command_success() to check if the data
+	submitted to the server during a SASL authentication step was valid.
+
+	* libmail/*.c: More descriptive debug messages, change printf() calls
+	to fprintf(stderr, ...
+
+	* libmail/*.c: Eliminate warnings about discarded pointer types.
+
+	* libmail/imap4.c: Better error handling for snprintf() calls, renaming
+	IMAP4_MAX_{COMMAND,RESPONSE} to IMAP4_BUFSIZE.
+	
+	* libmail/pop3.c: Better error handling for snprintf() calls, renaming
+	POP3_MAX_{COMMAND,RESPONSE} to POP3_BUFSIZE.
+
+	* man/libmail_strerror.3: Prototype of libmail_strerror() updated
+
+	* libmail/error.c: libmail_strerror() should return const char *
+	instead of char *
+
+	* libmail/Makefile.am: Update version-info to 1:1:0
+
+	* configure.ac: Update version to 0.2
+
+	* ------ libmail-0.2-rc1 released ------	
+
+	* libmail/imap4.c: Check SASL responses for errors
+
+	* libmail/mbox.c: Implement check for new messages (feature request:
+	#2658636)
+
+	* libmail/*.c: unused imports removed
+
+2009-03-23 Dimitris Mandalidis <mandas@users.sourceforge.net>
+
+	* libmail/sasl.c: Remove debug statements which are accidentally when
+	configured without --enable-debug
+
+	* man/libmail_pop3.3: Add 'BUGS' section about the unimplemented check
+	of new messages for pop3_check()
+
+	* libmail/imap4.c: Remove send_imap4_command(), replace its occurences
+	with send_command() and include libmail/commons.h
+
+	* libmail/pop3.c: Remove send_pop3_command(), replace its occurences
+	with send_command() and include libmail/commons.h
+
+	* libmail/commons.c: Implementation of send_command() to be used by
+	POP3 and IMAP4. Prototype added to libmail/commons.h
+
+	* libmail/commons.[ch]: Files created.
+
+	* man/libmail_*.3: Update *_check() function prototypes.
+
+	* libmail/imap4.c: Implement check for new messages. (feature request:
+	#2658636)
+
+	* libmail/maildir.c: Implement check for new messages. (feature
+	request: #2658636)
+
+	* libmail/maildir.[ch]: Add n_new_messages to maildir_check() and its
+	prototype
+
+	* libmail/mbox.[ch]: Add n_new_messages to mbox_check() and its
+	prototype
+
+	* libmail/imap4.[ch]: Add n_new_messages to imap4_check() and its
+	prototype
+
+	* libmail/pop3.[ch]: Add n_new_messages to pop3_check() and its
+	prototype
+
+	* libmail/libmail.h: Add n_new_messages to endpeer_t
+
+2009-03-22 Dimitris Mandalidis <mandas@users.sourceforge.net>
+	
+	* configure.ac: Updated.
+
+	* libmail/libmail.h: Add inclusion of limits.h
+
+	* libmail/*.c: Remove inclusion of limits.h
+
+	* man/libmail_maildir.3: mbox typo corrected.
+
+	* man/*.3: Update manual pages to link to libmail_strerror.3
+
+	* man/libmail_strerror.3: Manual page added
+
+	* libmail/*.c: Inclusion of libmail/error.h
+
+	* libmail/libmail.h: Error codes moved to libmail/error.h
+	
+	* libmail/error.h: File created and prototype of libmail_strerror()
+	added. Error codes were also added.
+
+	* libmail/error.c: File created and libmail_strerror() added which
+	returns a short description for libmail errors. (feature request:
+	#2703703)
+
+	* README: Changing layout and adding prerequisities section
+
+	* man/libmail_pop3.c: Add note about AUTH_POP3_SASL and update
+	references.
+
+	* man/libmail_imap4.c: Add note about AUTH_IMAP4_SASL and update
+	references.
+
+	* libmail/imap4.c: Replicate sasl_pop3_authenticate() and add check for
+	AUTH_IMAP4_SASL.
+
+	* libmail/pop3.c: Add check for AUTH_POP3_SASL and call
+	sasl_pop3_authenticate().
+
+	* libmail/pop3.h: Add AUTH_POP3_SASL.
+
+	* libmail/imap4.h: Add AUTH_IMAP4_SASL.
+
+2009-03-21 Dimitris Mandalidis <mandas@users.sourceforge.net>
+
+	* libmail/sasl.c: Create sasl.c and sasl.h to be used by all protocols
+	which support SASL authentication. (feature request: #2686966)
+
+	* libmail/pop3.c: Add pop3_get_sasl_mechs() to pass to
+	sasl_client_start().
+
+	* libmail/libmail.h: Add LIBMAIL_UNSUPPORTED_SASL error code
+
+	* libmail/imap4.c: Modify imap4_command_success() and
+	imap4_command_tagged_success() to return LIBMAIL_* 	error codes
+	
+	* libmail/pop3.c: Modify pop3_command_success() to return LIBMAIL_*
+	error codes
+
+	* libmail/imap4.c: get number of received bytes from 
+	send_imap4_command().
+
+	* libmail/pop3.c: get number of received bytes from
+	send_pop3_command().
+
+	* libmail/network.h: Add get_local_port() function.
+
+	* libmail/network.c: Add get_local_port() function.
+
+2009-03-17 Dimitris Mandalidis <mandas@users.sourceforge.net>
+
+	* libmail/pop3.c: sasl_pop3_authenticate() just works. Work is to be
+	done to be a generic function to replace pop3_authenticate() and
+	imap4_authenticate().
+
+2009-03-15 Dimitris Mandalidis <mandas@users.sourceforge.net>
+
+	* libmail/libmail.h: Add LIBMAIL_SASL_ERROR return value
+
+	* libmail/pop3.c: Add sasl_pop3_authenticate() to subsequently replace
+	pop3_authenticate() when done implements SASL authentication schemes.
+
+	* configure.ac: Modified to check for cyrus-sasl2.
+
+2009-03-14 Dimitris Mandalidis <mandas@users.sourceforge.net>
+
+	* libmail/Makefile.am: Changed version-info to 1:0:0, thus breaking
+	backwards compatibility.
+
+2009-03-13 Dimitris Mandalidis <mandas@users.sourceforge.net>
+
+	* man/libmail_pop3.3: Remove unnecessary LIBMAIL_OTHER return value.
+
+	* man/libmail_imap4.3: Remove unnecessary LIBMAIL_OTHER return value.
+
+	* libmail/libmail.h: Remove unnecessary LIBMAIL_OTHER return value.
+
+	* libmail/network.c: Remove unnecessary check for NULL in res.
+
+	* libmail/md5sum.c: Add assert() call to malloc()'s result.
+
+	* configure.ac: Sanity modifications in configure.ac 
+
+2009-03-10 Dimitris Mandalidis <mandas@users.sourceforge.net>
+
+	* configure.ac: Add -D_GNU_SOURCE to compile arguments to support IDN.
+
+	* libmail/network.c: Added AI_IDN to getaddrinfo ai_flags to support
+	Internationalized domain names. (Feature : #2680107)
+
+	* man/libmail_pop3.3: Document changes.
+
+	* man/libmail_imap4.3: Document changes.
+
+	* libmail/imap4.c: Modify imap4_connect() according to previous
+	modifications.
+
+	* libmail/pop3.c: Modify pop3_connect() according to previous
+	modifications.
+
+	* libmail/libmail.h: Add ai_family to pop3_server_t and imap4_server_t
+	structures
+
+	* libmail/libmail.h: Add IPV4 and IPV6 macros for use from
+	connect_to_server()
+
+	* libmail/network.h: Modify connect_to_server() signature according to
+	previous modification
+
+	* libmail/network.c: Add ai_family of type uint8_t to specify IPv4 or
+	IPv6 protocol to functions connect_to_server() and init_criteria().
+	(Feature : #2680100)
+
+2009-03-09 Dimitris Mandalidis <mandas@users.sourceforge.net>
+
+	* libmail/: maildir.c and maildir.h created and added to
+	libmail/Makefile.am 
+
+	* libmail/libmail.h: maildir_server_t defined and added to server_t
+	union. MAILDIR_PROTO macro defined. (Feature : #2658651)
+
+2009-03-08 Dimitris Mandalidis <mandas@users.sourceforge.net>
+
+	* ------ libmail-0.1 released ------
+
+	* man/: mbox_check(3) manual page added.
+
+	* libmail/pop3.c: Bug #2672295 fixed. When pop3.c:get_timestamp()
+	doesn't find a valid timestamp in the server greeting returns
+	LIBMAIL_POP3_UNSUPPORTED_APOP.
+
+	* libmail/libmail.h: LIBMAIL_POP3_UNSUPPORTED_APOP added.
+
+	* man/libmail_pop3.3: LIBMAIL_POP3_UNSUPPORTED_APOP added as a return
+	value of pop3_authenticate().
+
+2009-03-07 Dimitris Mandalidis <mandas@users.sourceforge.net>
+
+	* ------ libmail-0.1b released ------
+
+	* configure.ac: Add further checks 
+
+	* man/libmail_pop3.3: Document endpeer_t and server_t and add example
+	of use. (Request id: #2658660)
+	
+	* man/libmail_imap4.3: Document endpeer_t and server_t and add example
+	of use. (Request id: #2658660)
+
+	* man/libmail_mbox.3: Document endpeer_t and server_t and add example
+	of use. (Request id: #2658660)
+
+	* README: Minor change in layout
+
+	* man/libmail_pop3.3: Remove entry about MD5 bug
+
+	* libmail/md5sum.c: Remove endianess-unsafe snippet. MD5 digest calculation is
+	now portable (at least it should be). (Request id : #2654274)
+
+2009-03-06 Dimitris Mandalidis <mandas@users.sourceforge.net>
+
+	* libmail/md5sum.c: Change ROUND[1234], F,G,H,I and ROL macro definitions to
+	functions to avoid code duplication as these functions are
+	frequently called. (Request id : #2658680)
+
+2009-03-02 Dimitris Mandalidis <mandas@users.sourceforge.net>
+
+	* ------ libmail-0.1a released ------  

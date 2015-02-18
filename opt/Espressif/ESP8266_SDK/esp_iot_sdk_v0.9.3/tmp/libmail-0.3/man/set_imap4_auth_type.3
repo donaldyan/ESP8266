@@ -1,0 +1,47 @@
+.\" This file is part of libmail.
+.\" 
+.\"	(c) 2009 - Dimitris Mandalidis <mandas@users.sourceforge.net>
+.\"
+.\" libmail is free software: you can redistribute it and/or modify
+.\" it under the terms of the GNU General Public License as published by
+.\" the Free Software Foundation, either version 3 of the License, or
+.\" (at your option) any later version.
+.\" 
+.\" libmail is distributed in the hope that it will be useful,
+.\" but WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\" 
+.\" You should have received a copy of the GNU General Public License
+.\" along with libmail.  If not, see <http://www.gnu.org/licenses/>.
+.TH SET_IMAP4_AUTH_TYPE 3 "2009-06-18" "version 0.3" "libmail - A mail handling library"
+.SH NAME
+set_imap4_auth_type - Set IMAP4 authentication method
+.SH SYNOPSIS
+.nf
+.B #include <libmail/libmail.h>
+.B #include <libmail/imap4.h>
+.sp
+.BI "void set_imap4_auth_type(imap4_mailbox_t " "*mailbox" ", short " "auth_type" ")"
+.sp
+.fi
+.SH DESCRIPTION
+Set the authentication method which will be used when
+.B imap4_authenticate()
+will be called. Valid values are :
+.TP
+.B AUTH_IMAP4_NONE
+Do not authenticate, access should be granted by the remote server on
+connect.
+.TP
+.B AUTH_IMAP4_LOGIN
+Use the LOGIN authentication method
+.TP
+.B AUTH_IMAP4_SASL
+Use the AUTHENTICATE authentication method.
+.SH "SEE ALSO"
+.BR "imap4_authenticate" "(3)."
+.sp
+.B RFC 1730, RFC 2595, RFC 1731
+.SH "AUTHOR"
+Dimitris Mandalidis <mandas AT users DOT sourceforge DOT net>

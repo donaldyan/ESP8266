@@ -1,0 +1,61 @@
+.\" This file is part of libmail.
+.\" 
+.\"	(c) 2009 - Dimitris Mandalidis <mandas@users.sourceforge.net>
+.\"
+.\" libmail is free software: you can redistribute it and/or modify
+.\" it under the terms of the GNU General Public License as published by
+.\" the Free Software Foundation, either version 3 of the License, or
+.\" (at your option) any later version.
+.\" 
+.\" libmail is distributed in the hope that it will be useful,
+.\" but WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\" 
+.\" You should have received a copy of the GNU General Public License
+.\" along with libmail.  If not, see <http://www.gnu.org/licenses/>.
+.TH IMAP4_CONNECT 3 "2009-06-08" "version 0.3" "libmail - A mail handling library"
+.SH NAME
+imap4_disconnect, imap4_connect - Connect/Disconnect to/from IMAP4 remote server
+.SH SYNOPSIS
+.nf
+.B #include <libmail/libmail.h>
+.B #include <libmail/imap4.h>
+.sp
+.BI "int imap4_connect(imap4_mailbox_t *" "mailbox" );
+.sp
+.BI "int imap4_disconnect(imap4_mailbox_t *" "mailbox" );
+.sp
+.fi
+.SH DESCRIPTION
+Used to connect or disconnect from an IMAP4 remote server.  All the above functions takes a pointer to 
+.B imap4_mailbox_t 
+structure which identify the server's configuration. 
+.SH "RETURN VALUE"
+.B LIBMAIL_SUCCESS 
+is returned on success. On error they return the following non-zero error codes :
+.TP
+.B LIBMAIL_SYSERROR
+A system error occurred, errno defined in <errno.h> was set. 
+.TP
+.B LIBMAIL_DNSERROR
+The remote hostname was invalid resulting in "unresolved hostname"\-like error. 
+.TP
+.B LIBMAIL_SRVERROR
+Indicates that the server responded with an "BAD" or "NO" to a command.
+.TP
+.B LIBMAIL_TLSERROR
+Indicates an error in TLS/SSL transaction context. 
+.TP
+.B LIBMAIL_ALREADY_CONNECTED
+A connect call was made while already being connected.
+.TP
+.B LIBMAIL_ALREADY_DISCONNECTED
+A disconnect call was made while already being disconnected.
+.SH "SEE ALSO"
+.B RFC 1730, RFC 2595, RFC 1731
+.sp
+.BR "libmail_strerror" "(3), " "set_imap4_auth_type" "(3), " "set_imap4_hostname" "(3), " "set_imap4_inet_family" "(3), " "set_imap4_mailbox" "(3), "
+.BR "set_imap4_password" "(3), " "set_imap4_port" "(3), " "set_imap4_security_level" "(3), " "set_imap4_username" "(3), " "libmail_init_imap4_mailbox" "(3)."
+.SH "AUTHOR"
+Dimitris Mandalidis <mandas AT users DOT sourceforge DOT net>

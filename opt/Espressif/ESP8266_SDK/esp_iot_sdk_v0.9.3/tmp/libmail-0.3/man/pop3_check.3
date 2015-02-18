@@ -1,0 +1,51 @@
+.\" This file is part of libmail.
+.\" 
+.\"	(c) 2009 - Dimitris Mandalidis <mandas@users.sourceforge.net>
+.\"
+.\" libmail is free software: you can redistribute it and/or modify
+.\" it under the terms of the GNU General Public License as published by
+.\" the Free Software Foundation, either version 3 of the License, or
+.\" (at your option) any later version.
+.\" 
+.\" libmail is distributed in the hope that it will be useful,
+.\" but WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\" 
+.\" You should have received a copy of the GNU General Public License
+.\" along with libmail.  If not, see <http://www.gnu.org/licenses/>.
+.TH POP3_CHECK 3 "2009-06-20" "version 0.3" "libmail - A mail handling library"
+.SH NAME
+pop3_check - Check POP3 mailbox for messages
+.SH SYNOPSIS
+.nf
+.B #include <libmail/libmail.h>
+.B #include <libmail/pop3.h>
+.sp
+.BI "int pop3_check(pop3_mailbox_t *" "server" ", int *" "n_new_messages" ", int *" "n_messages" );
+.fi
+.SH DESCRIPTION
+It takes a pointer to 
+.B pop3_mailbox_t 
+structure which identify the server's configuration, and two pointer to
+fill the number of new and old messages respectively. 
+.SH "RETURN VALUE"
+Returns
+.B LIBMAIL_SUCCESS 
+on success. On error it returns :
+.TP
+.B LIBMAIL_NOT_CONNECTED
+If the user hasn't yet been connected.
+.TP
+.B LIBMAIL_SYSERROR
+On system error (see errno for details).
+.TP
+.B LIBMAIL_POP3_INVALID_MAILBOX
+The requested mailbox does not exist.
+.SH "SEE ALSO"
+.B RFC 1730, RFC 2595, RFC 1731
+.sp
+.BR "libmail_strerror" "(3), " "set_pop3_auth_type" "(3), " "set_pop3_hostname" "(3), " "set_pop3_inet_family" "(3), " "set_pop3_mailbox" "(3), "
+.BR "set_pop3_password" "(3), " "set_pop3_port" "(3), " "set_pop3_security_level" "(3), " "set_pop3_username" "(3), " "libmail_init_pop3_mailbox" "(3)."
+.SH "AUTHOR"
+Dimitris Mandalidis <mandas AT users DOT sourceforge DOT net>

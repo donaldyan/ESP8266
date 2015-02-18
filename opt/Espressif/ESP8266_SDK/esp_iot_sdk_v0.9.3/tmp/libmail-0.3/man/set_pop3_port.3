@@ -1,0 +1,35 @@
+.\" This file is part of libmail.
+.\" 
+.\"	(c) 2009 - Dimitris Mandalidis <mandas@users.sourceforge.net>
+.\"
+.\" libmail is free software: you can redistribute it and/or modify
+.\" it under the terms of the GNU General Public License as published by
+.\" the Free Software Foundation, either version 3 of the License, or
+.\" (at your option) any later version.
+.\" 
+.\" libmail is distributed in the hope that it will be useful,
+.\" but WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\" 
+.\" You should have received a copy of the GNU General Public License
+.\" along with libmail.  If not, see <http://www.gnu.org/licenses/>.
+.TH SET_POP3_HOSTNAME 3 "2009-06-18" "version 0.3" "libmail - A mail handling library"
+.SH NAME
+set_pop3_port - Set POP3 remote server port
+.SH SYNOPSIS
+.nf
+.B #include <libmail/libmail.h>
+.B #include <libmail/pop3.h>
+.sp
+.BI "void set_pop3_port(pop3_mailbox_t " "*mailbox" ", const char *" "port" ")"
+.sp
+.fi
+.SH DESCRIPTION
+Set the POP3 remote server port.
+.SH "SEE ALSO"
+.BR "pop3_connect" "(3)."
+.sp
+.B RFC 1939, RFC 2595, RFC 1734
+.SH "AUTHOR"
+Dimitris Mandalidis <mandas AT users DOT sourceforge DOT net>

@@ -1,0 +1,40 @@
+2009-07-20: libmail-0.3 released.
+	
+	* No changes.
+
+2009-06-25: libmail-0.3-rc1 released.
+
+	* TLS 1.0 and SSL 3.0 support
+	* major API rewrite, naming conversions.
+	* conditional compile of SASL, APOP and TLS support.
+
+2009-03-29: libmail-0.2 released
+	
+	* Bugfixes and improvements
+
+2009-03-25: libmail-0.2-rc1 released.
+
+	* New features:
+		- Maildir support
+		- IDN support
+		- IPv6 support
+		- SASL support
+		- Support of total and new messages
+
+2009-03-14: Integrated support for IDN, IPv6 and maildir. Backwards
+			compatibility has broken.
+
+2009-03-14: SVN support was added.
+
+2009-03-08: libmail-0.1 released (bugfix release)
+
+2009-03-07: libmail-0.1b released (bugfix release)
+	
+2009-03-02: libmail-0.1a released
+	
+	* Features :
+		- Local mbox support
+		- POP3 support
+			- USER/PASS and APOP authentication methods
+		- IMAP4 support
+			- LOGIN authentication method

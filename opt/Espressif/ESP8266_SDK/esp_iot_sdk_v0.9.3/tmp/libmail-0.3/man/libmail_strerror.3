@@ -1,0 +1,37 @@
+.\" This file is part of libmail.
+.\" 
+.\"	(c) 2009 - Dimitris Mandalidis <mandas@users.sourceforge.net>
+.\"
+.\" libmail is free software: you can redistribute it and/or modify
+.\" it under the terms of the GNU General Public License as published by
+.\" the Free Software Foundation, either version 3 of the License, or
+.\" (at your option) any later version.
+.\" 
+.\" libmail is distributed in the hope that it will be useful,
+.\" but WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\" 
+.\" You should have received a copy of the GNU General Public License
+.\" along with libmail.  If not, see <http://www.gnu.org/licenses/>.
+.TH LIBMAIL_STRERROR 3 "2009-03-26" "version 0.2" "libmail - A mail handling library"
+.SH NAME
+libmail_strerror() - libmail's error reporting function
+.SH SYNOPSIS
+.nf
+.B #include <libmail/error.h>
+.sp
+.BI "const char *libmail_strerror(int " "code" );
+.fi
+.SH DESCRIPTION
+.B libmail_strerror() 
+takes an error
+.I code
+defined in libmail/error.h and returns a short description.
+.SH "RETURN VALUE"
+.B libmail_strerror()
+returns a char array containing a short description about the error
+specified in
+.I code
+.SH "AUTHOR"
+Dimitris Mandalidis <mandas AT users DOT sourceforge DOT net>
