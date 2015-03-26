@@ -1,0 +1,1110 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+API_LIB_DEBUG	include/lwipopts.h	1820;"	d
+API_MSG_DEBUG	include/lwipopts.h	1827;"	d
+APP_AR	Makefile	/^APP_AR		:= $(addprefix $(BUILD_BASE)\/,$(TARGET)_app.a)$/;"	m
+AR	Makefile	/^AR		:= $(XTENSA_TOOLS_ROOT)\/xtensa-lx106-elf-ar$/;"	m
+ARP_QUEUEING	include/lwipopts.h	436;"	d
+ARP_TABLE_SIZE	include/lwipopts.h	425;"	d
+ASSERT	lib/heatshrink/greatest.h	569;"	d
+ASSERT	lib/heatshrink/heatshrink_decoder.c	23;"	d	file:
+ASSERT	lib/heatshrink/heatshrink_decoder.c	35;"	d	file:
+ASSERT	lib/heatshrink/heatshrink_encoder.c	24;"	d	file:
+ASSERT	lib/heatshrink/heatshrink_encoder.c	39;"	d	file:
+ASSERT_EQ	lib/heatshrink/greatest.h	572;"	d
+ASSERT_EQm	lib/heatshrink/greatest.h	575;"	d
+ASSERT_FALSE	lib/heatshrink/greatest.h	571;"	d
+ASSERT_FALSEm	lib/heatshrink/greatest.h	574;"	d
+ASSERT_STR_EQ	lib/heatshrink/greatest.h	573;"	d
+ASSERT_STR_EQm	lib/heatshrink/greatest.h	576;"	d
+ASSERTm	lib/heatshrink/greatest.h	570;"	d
+AUTH_H	user/auth.h	2;"	d
+AUTH_MAX_PASS_LEN	user/auth.h	14;"	d
+AUTH_MAX_USER_LEN	user/auth.h	13;"	d
+AUTOIP_DEBUG	include/lwipopts.h	2010;"	d
+A_BLOCK_LINK	include/mem_manager.h	/^typedef struct A_BLOCK_LINK$/;"	s
+ApData	user/cgiwifi.c	/^} ApData;$/;"	t	typeref:struct:__anon35	file:
+AuthGetUserPw	user/auth.h	/^typedef int (* AuthGetUserPw)(HttpdConnData *connData, int no, char *user, int userLen, char *pass, int passLen);$/;"	t
+BACKREF_COUNT_BITS	lib/heatshrink/heatshrink_decoder.c	128;"	d	file:
+BACKREF_INDEX_BITS	lib/heatshrink/heatshrink_decoder.c	129;"	d	file:
+BAUD_RATE_DET	include/uart_hw.h	/^    BAUD_RATE_DET,$/;"	e	enum:__anon9
+BIT_RATE_115200	include/uart_hw.h	/^    BIT_RATE_115200 = 115200,$/;"	e	enum:__anon5
+BIT_RATE_19200	include/uart_hw.h	/^    BIT_RATE_19200   = 19200,$/;"	e	enum:__anon5
+BIT_RATE_230400	include/uart_hw.h	/^    BIT_RATE_230400 = 230400,$/;"	e	enum:__anon5
+BIT_RATE_38400	include/uart_hw.h	/^    BIT_RATE_38400   = 38400,$/;"	e	enum:__anon5
+BIT_RATE_460800	include/uart_hw.h	/^    BIT_RATE_460800 = 460800,$/;"	e	enum:__anon5
+BIT_RATE_57600	include/uart_hw.h	/^    BIT_RATE_57600   = 57600,$/;"	e	enum:__anon5
+BIT_RATE_74880	include/uart_hw.h	/^    BIT_RATE_74880   = 74880,$/;"	e	enum:__anon5
+BIT_RATE_921600	include/uart_hw.h	/^    BIT_RATE_921600 = 921600$/;"	e	enum:__anon5
+BIT_RATE_9600	include/uart_hw.h	/^    BIT_RATE_9600     = 9600,$/;"	e	enum:__anon5
+BTNGPIO	user/io.c	24;"	d	file:
+BUILD_BASE	Makefile	/^BUILD_BASE	= build$/;"	m
+BUILD_DIR	Makefile	/^BUILD_DIR	:= $(addprefix $(BUILD_BASE)\/,$(MODULES))$/;"	m
+CBCP_SUPPORT	include/lwipopts.h	1614;"	d
+CC	Makefile	/^CC		:= $(XTENSA_TOOLS_ROOT)\/xtensa-lx106-elf-gcc$/;"	m
+CCP_SUPPORT	include/lwipopts.h	1621;"	d
+CFLAGS	Makefile	/^CFLAGS		= -Os -ggdb -std=c99 -Werror -Wpointer-arith -Wundef -Wall -Wl,-EL -fno-inline-functions \\$/;"	m
+CFLAGS	espfstest/Makefile	/^CFLAGS=-I..\/lib\/heatshrink -I..\/user -I..\/include -std=gnu99 $/;"	m
+CFLAGS	mkespfsimage/Makefile	/^CFLAGS=-I..\/lib\/heatshrink -std=gnu99$/;"	m
+CGIWIFI_H	user/cgiwifi.h	2;"	d
+CGI_H	user/cgi.h	2;"	d
+CHAP_DEFTIMEOUT	include/lwipopts.h	1666;"	d
+CHAP_DEFTRANSMITS	include/lwipopts.h	1670;"	d
+CHAP_SUPPORT	include/lwipopts.h	1600;"	d
+CHECKSUM_CHECK_IP	include/lwipopts.h	1748;"	d
+CHECKSUM_CHECK_TCP	include/lwipopts.h	1762;"	d
+CHECKSUM_CHECK_UDP	include/lwipopts.h	1755;"	d
+CHECKSUM_GEN_IP	include/lwipopts.h	1727;"	d
+CHECKSUM_GEN_TCP	include/lwipopts.h	1741;"	d
+CHECKSUM_GEN_UDP	include/lwipopts.h	1734;"	d
+COMPRESS_HEATSHRINK	mkespfsimage/espfsformat.h	20;"	d
+COMPRESS_NONE	mkespfsimage/espfsformat.h	19;"	d
+DEFAULT_ACCEPTMBOX_SIZE	include/lwipopts.h	1324;"	d
+DEFAULT_RAW_RECVMBOX_SIZE	include/lwipopts.h	1297;"	d
+DEFAULT_TCP_RECVMBOX_SIZE	include/lwipopts.h	1315;"	d
+DEFAULT_THREAD_NAME	include/lwipopts.h	1270;"	d
+DEFAULT_THREAD_PRIO	include/lwipopts.h	1288;"	d
+DEFAULT_THREAD_STACKSIZE	include/lwipopts.h	1279;"	d
+DEFAULT_UDP_RECVMBOX_SIZE	include/lwipopts.h	1306;"	d
+DEF_BUFFER_SIZE	lib/heatshrink/heatshrink.c	16;"	d	file:
+DEF_DECODER_INPUT_BUFFER_SIZE	lib/heatshrink/heatshrink.c	15;"	d	file:
+DEF_LOOKAHEAD_SZ2	lib/heatshrink/heatshrink.c	14;"	d	file:
+DEF_WINDOW_SZ2	lib/heatshrink/heatshrink.c	13;"	d	file:
+DHCP_DEBUG	include/lwipopts.h	2003;"	d
+DHCP_DOES_ARP_CHECK	include/lwipopts.h	659;"	d
+DNS_DEBUG	include/lwipopts.h	2031;"	d
+DNS_DOES_NAME_CHECK	include/lwipopts.h	805;"	d
+DNS_LOCAL_HOSTLIST	include/lwipopts.h	824;"	d
+DNS_LOCAL_HOSTLIST_IS_DYNAMIC	include/lwipopts.h	830;"	d
+DNS_MAX_NAME_LENGTH	include/lwipopts.h	795;"	d
+DNS_MAX_SERVERS	include/lwipopts.h	800;"	d
+DNS_MSG_SIZE	include/lwipopts.h	810;"	d
+DNS_TABLE_SIZE	include/lwipopts.h	790;"	d
+EFS_HEATSHRINK	include/httpdconfig.h	3;"	d
+EIGHT_BITS	include/uart_hw.h	/^    EIGHT_BITS = 0x3$/;"	e	enum:__anon1
+EMPTY	include/uart_hw.h	/^    EMPTY,$/;"	e	enum:__anon7
+ESPBAUD	Makefile	/^ESPBAUD		?= 115200$/;"	m
+ESPDELAY	Makefile	/^ESPDELAY	?= 3$/;"	m
+ESPFS_H	user/espfs.h	2;"	d
+ESPFS_POS	include/httpdconfig.h	6;"	d
+ESPMISSINGINCLUDES_H	include/espmissingincludes.h	2;"	d
+ESPPORT	Makefile	/^ESPPORT		?= \/dev\/ttyUSB0$/;"	m
+ESPROFSFORMAT_H	mkespfsimage/espfsformat.h	2;"	d
+ESPTOOL	Makefile	/^ESPTOOL		?= esptool$/;"	m
+ETHARP_DEBUG	include/lwipopts.h	1799;"	d
+ETHARP_STATS	include/lwipopts.h	1469;"	d
+ETHARP_STATS	include/lwipopts.h	1539;"	d
+ETHARP_SUPPORT_STATIC_ENTRIES	include/lwipopts.h	483;"	d
+ETHARP_SUPPORT_VLAN	include/lwipopts.h	460;"	d
+ETHARP_TRUST_IP_MAC	include/lwipopts.h	450;"	d
+ETH_PAD_SIZE	include/lwipopts.h	476;"	d
+EVEN_BITS	include/uart_hw.h	/^    EVEN_BITS = BIT4$/;"	e	enum:__anon3
+EXTRA_INCDIR	Makefile	/^EXTRA_INCDIR	:= $(addprefix -I,$(EXTRA_INCDIR))$/;"	m
+EXTRA_INCDIR	Makefile	/^EXTRA_INCDIR	= include \\$/;"	m
+EspFsFile	user/espfs.c	/^struct EspFsFile {$/;"	s	file:
+EspFsFile	user/espfs.h	/^typedef struct EspFsFile EspFsFile;$/;"	t	typeref:struct:EspFsFile
+EspFsHeader	mkespfsimage/espfsformat.h	/^} __attribute__((packed)) EspFsHeader;$/;"	t	typeref:struct:__anon31
+FAIL	lib/heatshrink/greatest.h	578;"	d
+FAILm	lib/heatshrink/greatest.h	581;"	d
+FIVE_BITS	include/uart_hw.h	/^    FIVE_BITS = 0x0,$/;"	e	enum:__anon1
+FLAG_BACKLOG_IS_FILLED	lib/heatshrink/heatshrink_encoder.c	/^    FLAG_BACKLOG_IS_FILLED = 0x10,$/;"	e	enum:__anon22	file:
+FLAG_BACKLOG_IS_PARTIAL	lib/heatshrink/heatshrink_encoder.c	/^    FLAG_BACKLOG_IS_PARTIAL = 0x08,$/;"	e	enum:__anon22	file:
+FLAG_HAS_LITERAL	lib/heatshrink/heatshrink_encoder.c	/^    FLAG_HAS_LITERAL = 0x02,$/;"	e	enum:__anon22	file:
+FLAG_IS_FINISHING	lib/heatshrink/heatshrink_encoder.c	/^    FLAG_IS_FINISHING = 0x01,$/;"	e	enum:__anon22	file:
+FLAG_LASTFILE	mkespfsimage/espfsformat.h	18;"	d
+FLAG_ON_FINAL_LITERAL	lib/heatshrink/heatshrink_encoder.c	/^    FLAG_ON_FINAL_LITERAL = 0x04,$/;"	e	enum:__anon22	file:
+FSM_DEFMAXCONFREQS	include/lwipopts.h	1650;"	d
+FSM_DEFMAXNAKLOOPS	include/lwipopts.h	1654;"	d
+FSM_DEFMAXTERMREQS	include/lwipopts.h	1646;"	d
+FSM_DEFTIMEOUT	include/lwipopts.h	1642;"	d
+FW_BASE	Makefile	/^FW_BASE		= firmware$/;"	m
+FW_FILE_1	Makefile	/^FW_FILE_1	:= $(addprefix $(FW_BASE)\/,$(FW_FILE_1).bin)$/;"	m
+FW_FILE_1	Makefile	/^FW_FILE_1	= 0x00000$/;"	m
+FW_FILE_1_ARGS	Makefile	/^FW_FILE_1_ARGS	= -bo $@ -bs .text -bs .data -bs .rodata -bc -ec$/;"	m
+FW_FILE_2	Makefile	/^FW_FILE_2	:= $(addprefix $(FW_BASE)\/,$(FW_FILE_2).bin)$/;"	m
+FW_FILE_2	Makefile	/^FW_FILE_2	= 0x40000$/;"	m
+FW_FILE_2_ARGS	Makefile	/^FW_FILE_2_ARGS	= -es .irom0.text $@ -ec$/;"	m
+GREATEST_ASSERT	lib/heatshrink/greatest.h	246;"	d
+GREATEST_ASSERT_EQ	lib/heatshrink/greatest.h	248;"	d
+GREATEST_ASSERT_EQm	lib/heatshrink/greatest.h	273;"	d
+GREATEST_ASSERT_FALSE	lib/heatshrink/greatest.h	247;"	d
+GREATEST_ASSERT_FALSEm	lib/heatshrink/greatest.h	264;"	d
+GREATEST_ASSERT_STR_EQ	lib/heatshrink/greatest.h	249;"	d
+GREATEST_ASSERT_STR_EQm	lib/heatshrink/greatest.h	282;"	d
+GREATEST_ASSERTm	lib/heatshrink/greatest.h	255;"	d
+GREATEST_CLOCK_DIFF	lib/heatshrink/greatest.h	327;"	d
+GREATEST_DEFAULT_WIDTH	lib/heatshrink/greatest.h	83;"	d
+GREATEST_FAIL	lib/heatshrink/greatest.h	244;"	d
+GREATEST_FAILURE_ABORT	lib/heatshrink/greatest.h	240;"	d
+GREATEST_FAILm	lib/heatshrink/greatest.h	305;"	d
+GREATEST_FIRST_FAIL	lib/heatshrink/greatest.h	239;"	d
+GREATEST_FLAG	lib/heatshrink/greatest.h	/^} GREATEST_FLAG;$/;"	t	typeref:enum:__anon30
+GREATEST_FLAG_FIRST_FAIL	lib/heatshrink/greatest.h	/^    GREATEST_FLAG_FIRST_FAIL = 0x02,$/;"	e	enum:__anon30
+GREATEST_FLAG_LIST_ONLY	lib/heatshrink/greatest.h	/^    GREATEST_FLAG_LIST_ONLY = 0x04$/;"	e	enum:__anon30
+GREATEST_FLAG_VERBOSE	lib/heatshrink/greatest.h	/^    GREATEST_FLAG_VERBOSE = 0x01,$/;"	e	enum:__anon30
+GREATEST_H	lib/heatshrink/greatest.h	18;"	d
+GREATEST_IS_VERBOSE	lib/heatshrink/greatest.h	237;"	d
+GREATEST_LIST_ONLY	lib/heatshrink/greatest.h	238;"	d
+GREATEST_MAIN_BEGIN	lib/heatshrink/greatest.h	502;"	d
+GREATEST_MAIN_DEFS	lib/heatshrink/greatest.h	333;"	d
+GREATEST_MAIN_END	lib/heatshrink/greatest.h	543;"	d
+GREATEST_PASS	lib/heatshrink/greatest.h	243;"	d
+GREATEST_PASSm	lib/heatshrink/greatest.h	299;"	d
+GREATEST_RUN_SUITE	lib/heatshrink/greatest.h	196;"	d
+GREATEST_RUN_TEST	lib/heatshrink/greatest.h	199;"	d
+GREATEST_RUN_TEST1	lib/heatshrink/greatest.h	211;"	d
+GREATEST_RUN_TESTp	lib/heatshrink/greatest.h	224;"	d
+GREATEST_SET_TIME	lib/heatshrink/greatest.h	319;"	d
+GREATEST_SKIP	lib/heatshrink/greatest.h	245;"	d
+GREATEST_SKIPm	lib/heatshrink/greatest.h	313;"	d
+GREATEST_STDOUT	lib/heatshrink/greatest.h	88;"	d
+GREATEST_SUITE	lib/heatshrink/greatest.h	189;"	d
+GREATEST_TEST	lib/heatshrink/greatest.h	193;"	d
+GREATEST_USE_ABBREVS	lib/heatshrink/greatest.h	93;"	d
+GREATEST_VERSION_MAJOR	lib/heatshrink/greatest.h	20;"	d
+GREATEST_VERSION_MINOR	lib/heatshrink/greatest.h	21;"	d
+GREATEST_VERSION_PATCH	lib/heatshrink/greatest.h	22;"	d
+HARDWARE_CTRL	include/uart_hw.h	/^    HARDWARE_CTRL,$/;"	e	enum:__anon6
+HEATSHRINK_AUTHOR	lib/heatshrink/heatshrink_common.h	4;"	d
+HEATSHRINK_BACKREF_MARKER	lib/heatshrink/heatshrink_common.h	18;"	d
+HEATSHRINK_CONFIG_H	lib/heatshrink/heatshrink_config.h	2;"	d
+HEATSHRINK_CONFIG_H	user/heatshrink_config_httpd.h	3;"	d
+HEATSHRINK_DEBUGGING_LOGS	lib/heatshrink/heatshrink_config.h	19;"	d
+HEATSHRINK_DEBUGGING_LOGS	user/heatshrink_config_httpd.h	20;"	d
+HEATSHRINK_DECODER_H	lib/heatshrink/heatshrink_decoder.h	2;"	d
+HEATSHRINK_DECODER_INPUT_BUFFER_SIZE	lib/heatshrink/heatshrink_decoder.h	29;"	d
+HEATSHRINK_DECODER_INPUT_BUFFER_SIZE	lib/heatshrink/heatshrink_decoder.h	36;"	d
+HEATSHRINK_DECODER_LOOKAHEAD_BITS	lib/heatshrink/heatshrink_decoder.h	33;"	d
+HEATSHRINK_DECODER_LOOKAHEAD_BITS	lib/heatshrink/heatshrink_decoder.h	40;"	d
+HEATSHRINK_DECODER_WINDOW_BITS	lib/heatshrink/heatshrink_decoder.h	31;"	d
+HEATSHRINK_DECODER_WINDOW_BITS	lib/heatshrink/heatshrink_decoder.h	38;"	d
+HEATSHRINK_DYNAMIC_ALLOC	lib/heatshrink/heatshrink_config.h	5;"	d
+HEATSHRINK_DYNAMIC_ALLOC	user/heatshrink_config_httpd.h	6;"	d
+HEATSHRINK_ENCODER_H	lib/heatshrink/heatshrink_encoder.h	2;"	d
+HEATSHRINK_ENCODER_INDEX	lib/heatshrink/heatshrink_encoder.h	33;"	d
+HEATSHRINK_ENCODER_INDEX	lib/heatshrink/heatshrink_encoder.h	44;"	d
+HEATSHRINK_ENCODER_LOOKAHEAD_BITS	lib/heatshrink/heatshrink_encoder.h	31;"	d
+HEATSHRINK_ENCODER_LOOKAHEAD_BITS	lib/heatshrink/heatshrink_encoder.h	42;"	d
+HEATSHRINK_ENCODER_WINDOW_BITS	lib/heatshrink/heatshrink_encoder.h	29;"	d
+HEATSHRINK_ENCODER_WINDOW_BITS	lib/heatshrink/heatshrink_encoder.h	40;"	d
+HEATSHRINK_FREE	lib/heatshrink/heatshrink_config.h	10;"	d
+HEATSHRINK_FREE	user/heatshrink_config_httpd.h	11;"	d
+HEATSHRINK_H	lib/heatshrink/heatshrink_common.h	2;"	d
+HEATSHRINK_LITERAL_MARKER	lib/heatshrink/heatshrink_common.h	17;"	d
+HEATSHRINK_MALLOC	lib/heatshrink/heatshrink_config.h	9;"	d
+HEATSHRINK_MALLOC	user/heatshrink_config_httpd.h	10;"	d
+HEATSHRINK_MAX_WINDOW_BITS	lib/heatshrink/heatshrink_common.h	13;"	d
+HEATSHRINK_MIN_LOOKAHEAD_BITS	lib/heatshrink/heatshrink_common.h	15;"	d
+HEATSHRINK_MIN_WINDOW_BITS	lib/heatshrink/heatshrink_common.h	12;"	d
+HEATSHRINK_STATIC_INPUT_BUFFER_SIZE	lib/heatshrink/heatshrink_config.h	13;"	d
+HEATSHRINK_STATIC_INPUT_BUFFER_SIZE	user/heatshrink_config_httpd.h	14;"	d
+HEATSHRINK_STATIC_LOOKAHEAD_BITS	lib/heatshrink/heatshrink_config.h	15;"	d
+HEATSHRINK_STATIC_LOOKAHEAD_BITS	user/heatshrink_config_httpd.h	16;"	d
+HEATSHRINK_STATIC_WINDOW_BITS	lib/heatshrink/heatshrink_config.h	14;"	d
+HEATSHRINK_STATIC_WINDOW_BITS	user/heatshrink_config_httpd.h	15;"	d
+HEATSHRINK_URL	lib/heatshrink/heatshrink_common.h	5;"	d
+HEATSHRINK_USE_INDEX	lib/heatshrink/heatshrink_config.h	22;"	d
+HEATSHRINK_USE_INDEX	user/heatshrink_config_httpd.h	23;"	d
+HEATSHRINK_VERSION_MAJOR	lib/heatshrink/heatshrink_common.h	8;"	d
+HEATSHRINK_VERSION_MINOR	lib/heatshrink/heatshrink_common.h	9;"	d
+HEATSHRINK_VERSION_PATCH	lib/heatshrink/heatshrink_common.h	10;"	d
+HSDR_FINISH_DONE	lib/heatshrink/heatshrink_decoder.h	/^    HSDR_FINISH_DONE,           \/* output is done *\/$/;"	e	enum:__anon26
+HSDR_FINISH_ERROR_NULL	lib/heatshrink/heatshrink_decoder.h	/^    HSDR_FINISH_ERROR_NULL=-1,  \/* NULL arguments *\/$/;"	e	enum:__anon26
+HSDR_FINISH_MORE	lib/heatshrink/heatshrink_decoder.h	/^    HSDR_FINISH_MORE,           \/* more output remains *\/$/;"	e	enum:__anon26
+HSDR_POLL_EMPTY	lib/heatshrink/heatshrink_decoder.h	/^    HSDR_POLL_EMPTY,            \/* input exhausted *\/$/;"	e	enum:__anon25
+HSDR_POLL_ERROR_NULL	lib/heatshrink/heatshrink_decoder.h	/^    HSDR_POLL_ERROR_NULL=-1,    \/* NULL arguments *\/$/;"	e	enum:__anon25
+HSDR_POLL_ERROR_UNKNOWN	lib/heatshrink/heatshrink_decoder.h	/^    HSDR_POLL_ERROR_UNKNOWN=-2,$/;"	e	enum:__anon25
+HSDR_POLL_MORE	lib/heatshrink/heatshrink_decoder.h	/^    HSDR_POLL_MORE,             \/* more data remaining, call again w\/ fresh output buffer *\/$/;"	e	enum:__anon25
+HSDR_SINK_ERROR_NULL	lib/heatshrink/heatshrink_decoder.h	/^    HSDR_SINK_ERROR_NULL=-1,    \/* NULL argument *\/$/;"	e	enum:__anon24
+HSDR_SINK_FULL	lib/heatshrink/heatshrink_decoder.h	/^    HSDR_SINK_FULL,             \/* out of space in internal buffer *\/$/;"	e	enum:__anon24
+HSDR_SINK_OK	lib/heatshrink/heatshrink_decoder.h	/^    HSDR_SINK_OK,               \/* data sunk, ready to poll *\/$/;"	e	enum:__anon24
+HSDS_BACKREF_COUNT_LSB	lib/heatshrink/heatshrink_decoder.c	/^    HSDS_BACKREF_COUNT_LSB,     \/* least significant byte of count *\/$/;"	e	enum:__anon14	file:
+HSDS_BACKREF_COUNT_MSB	lib/heatshrink/heatshrink_decoder.c	/^    HSDS_BACKREF_COUNT_MSB,     \/* most significant byte of count *\/$/;"	e	enum:__anon14	file:
+HSDS_BACKREF_INDEX_LSB	lib/heatshrink/heatshrink_decoder.c	/^    HSDS_BACKREF_INDEX_LSB,     \/* least significant byte of index *\/$/;"	e	enum:__anon14	file:
+HSDS_BACKREF_INDEX_MSB	lib/heatshrink/heatshrink_decoder.c	/^    HSDS_BACKREF_INDEX_MSB,     \/* most significant byte of index *\/$/;"	e	enum:__anon14	file:
+HSDS_CHECK_FOR_MORE_INPUT	lib/heatshrink/heatshrink_decoder.c	/^    HSDS_CHECK_FOR_MORE_INPUT,  \/* check if input is exhausted *\/$/;"	e	enum:__anon14	file:
+HSDS_EMPTY	lib/heatshrink/heatshrink_decoder.c	/^    HSDS_EMPTY,                 \/* no input to process *\/$/;"	e	enum:__anon14	file:
+HSDS_INPUT_AVAILABLE	lib/heatshrink/heatshrink_decoder.c	/^    HSDS_INPUT_AVAILABLE,       \/* new input, completely unprocessed *\/$/;"	e	enum:__anon14	file:
+HSDS_YIELD_BACKREF	lib/heatshrink/heatshrink_decoder.c	/^    HSDS_YIELD_BACKREF,         \/* ready to yield back-reference *\/$/;"	e	enum:__anon14	file:
+HSDS_YIELD_LITERAL	lib/heatshrink/heatshrink_decoder.c	/^    HSDS_YIELD_LITERAL,         \/* ready to yield literal byte *\/$/;"	e	enum:__anon14	file:
+HSD_finish_res	lib/heatshrink/heatshrink_decoder.h	/^} HSD_finish_res;$/;"	t	typeref:enum:__anon26
+HSD_poll_res	lib/heatshrink/heatshrink_decoder.h	/^} HSD_poll_res;$/;"	t	typeref:enum:__anon25
+HSD_sink_res	lib/heatshrink/heatshrink_decoder.h	/^} HSD_sink_res;$/;"	t	typeref:enum:__anon24
+HSD_state	lib/heatshrink/heatshrink_decoder.c	/^} HSD_state;$/;"	t	typeref:enum:__anon14	file:
+HSER_FINISH_DONE	lib/heatshrink/heatshrink_encoder.h	/^    HSER_FINISH_DONE,           \/* encoding is complete *\/$/;"	e	enum:__anon18
+HSER_FINISH_ERROR_NULL	lib/heatshrink/heatshrink_encoder.h	/^    HSER_FINISH_ERROR_NULL=-1,  \/* NULL argument *\/$/;"	e	enum:__anon18
+HSER_FINISH_MORE	lib/heatshrink/heatshrink_encoder.h	/^    HSER_FINISH_MORE,           \/* more output remaining; use poll *\/$/;"	e	enum:__anon18
+HSER_POLL_EMPTY	lib/heatshrink/heatshrink_encoder.h	/^    HSER_POLL_EMPTY,            \/* input exhausted *\/$/;"	e	enum:__anon17
+HSER_POLL_ERROR_MISUSE	lib/heatshrink/heatshrink_encoder.h	/^    HSER_POLL_ERROR_MISUSE=-2,  \/* API misuse *\/$/;"	e	enum:__anon17
+HSER_POLL_ERROR_NULL	lib/heatshrink/heatshrink_encoder.h	/^    HSER_POLL_ERROR_NULL=-1,    \/* NULL argument *\/$/;"	e	enum:__anon17
+HSER_POLL_MORE	lib/heatshrink/heatshrink_encoder.h	/^    HSER_POLL_MORE,             \/* poll again for more output  *\/$/;"	e	enum:__anon17
+HSER_SINK_ERROR_MISUSE	lib/heatshrink/heatshrink_encoder.h	/^    HSER_SINK_ERROR_MISUSE=-2,  \/* API misuse *\/$/;"	e	enum:__anon16
+HSER_SINK_ERROR_NULL	lib/heatshrink/heatshrink_encoder.h	/^    HSER_SINK_ERROR_NULL=-1,    \/* NULL argument *\/$/;"	e	enum:__anon16
+HSER_SINK_OK	lib/heatshrink/heatshrink_encoder.h	/^    HSER_SINK_OK,               \/* data sunk into input buffer *\/$/;"	e	enum:__anon16
+HSES_DONE	lib/heatshrink/heatshrink_encoder.c	/^    HSES_DONE,                  \/* done *\/$/;"	e	enum:__anon21	file:
+HSES_FILLED	lib/heatshrink/heatshrink_encoder.c	/^    HSES_FILLED,                \/* buffer is full *\/$/;"	e	enum:__anon21	file:
+HSES_FLUSH_BITS	lib/heatshrink/heatshrink_encoder.c	/^    HSES_FLUSH_BITS,            \/* flush bit buffer *\/$/;"	e	enum:__anon21	file:
+HSES_NOT_FULL	lib/heatshrink/heatshrink_encoder.c	/^    HSES_NOT_FULL,              \/* input buffer not full enough *\/$/;"	e	enum:__anon21	file:
+HSES_SAVE_BACKLOG	lib/heatshrink/heatshrink_encoder.c	/^    HSES_SAVE_BACKLOG,          \/* copying buffer to backlog *\/$/;"	e	enum:__anon21	file:
+HSES_SEARCH	lib/heatshrink/heatshrink_encoder.c	/^    HSES_SEARCH,                \/* searching for patterns *\/$/;"	e	enum:__anon21	file:
+HSES_YIELD_BR_INDEX	lib/heatshrink/heatshrink_encoder.c	/^    HSES_YIELD_BR_INDEX,        \/* yielding backref index *\/$/;"	e	enum:__anon21	file:
+HSES_YIELD_BR_LENGTH	lib/heatshrink/heatshrink_encoder.c	/^    HSES_YIELD_BR_LENGTH,       \/* yielding backref length *\/$/;"	e	enum:__anon21	file:
+HSES_YIELD_LITERAL	lib/heatshrink/heatshrink_encoder.c	/^    HSES_YIELD_LITERAL,         \/* emit literal byte *\/$/;"	e	enum:__anon21	file:
+HSES_YIELD_TAG_BIT	lib/heatshrink/heatshrink_encoder.c	/^    HSES_YIELD_TAG_BIT,         \/* yield tag bit *\/$/;"	e	enum:__anon21	file:
+HSE_finish_res	lib/heatshrink/heatshrink_encoder.h	/^} HSE_finish_res;$/;"	t	typeref:enum:__anon18
+HSE_poll_res	lib/heatshrink/heatshrink_encoder.h	/^} HSE_poll_res;$/;"	t	typeref:enum:__anon17
+HSE_sink_res	lib/heatshrink/heatshrink_encoder.h	/^} HSE_sink_res;$/;"	t	typeref:enum:__anon16
+HSE_state	lib/heatshrink/heatshrink_encoder.c	/^} HSE_state;$/;"	t	typeref:enum:__anon21	file:
+HTTPDESPFS_H	user/httpdespfs.h	2;"	d
+HTTPDVER	user/httpd.h	7;"	d
+HTTPD_AUTH_CALLBACK	user/auth.h	11;"	d
+HTTPD_AUTH_SINGLE	user/auth.h	10;"	d
+HTTPD_CGI_AUTHENTICATED	user/httpd.h	12;"	d
+HTTPD_CGI_DONE	user/httpd.h	10;"	d
+HTTPD_CGI_MORE	user/httpd.h	9;"	d
+HTTPD_CGI_NOTFOUND	user/httpd.h	11;"	d
+HTTPD_H	user/httpd.h	2;"	d
+HTTP_AUTH_REALM	user/auth.h	7;"	d
+HttpdBuiltInUrl	user/httpd.h	/^} HttpdBuiltInUrl;$/;"	t	typeref:struct:__anon32
+HttpdConnData	user/httpd.h	/^struct HttpdConnData {$/;"	s
+HttpdConnData	user/httpd.h	/^typedef struct HttpdConnData HttpdConnData;$/;"	t	typeref:struct:HttpdConnData
+HttpdPriv	user/httpd.c	/^struct HttpdPriv {$/;"	s	file:
+HttpdPriv	user/httpd.h	/^typedef struct HttpdPriv HttpdPriv;$/;"	t	typeref:struct:HttpdPriv
+ICACHE_FLASH_ATTR	user/espfs.c	42;"	d	file:
+ICMP_DEBUG	include/lwipopts.h	1841;"	d
+ICMP_STATS	include/lwipopts.h	1491;"	d
+ICMP_STATS	include/lwipopts.h	1543;"	d
+ICMP_TTL	include/lwipopts.h	607;"	d
+IGMP_DEBUG	include/lwipopts.h	1848;"	d
+IGMP_STATS	include/lwipopts.h	1498;"	d
+IGMP_STATS	include/lwipopts.h	1544;"	d
+INCDIR	Makefile	/^INCDIR	:= $(addprefix -I,$(SRC_DIR))$/;"	m
+INET_DEBUG	include/lwipopts.h	1855;"	d
+IO_READ	lib/heatshrink/heatshrink.c	/^typedef enum { IO_READ, IO_WRITE, } IO_mode;$/;"	e	enum:__anon10	file:
+IO_WRITE	lib/heatshrink/heatshrink.c	/^typedef enum { IO_READ, IO_WRITE, } IO_mode;$/;"	e	enum:__anon10	file:
+IO_mode	lib/heatshrink/heatshrink.c	/^typedef enum { IO_READ, IO_WRITE, } IO_mode;$/;"	t	typeref:enum:__anon10	file:
+IPFRAG_STATS	include/lwipopts.h	1484;"	d
+IPFRAG_STATS	include/lwipopts.h	1542;"	d
+IP_DEBUG	include/lwipopts.h	1862;"	d
+IP_DEFAULT_TTL	include/lwipopts.h	570;"	d
+IP_FORWARD	include/lwipopts.h	498;"	d
+IP_FRAG	include/lwipopts.h	525;"	d
+IP_FRAG_MAX_MTU	include/lwipopts.h	563;"	d
+IP_FRAG_USES_STATIC_BUF	include/lwipopts.h	555;"	d
+IP_OPTIONS_ALLOWED	include/lwipopts.h	507;"	d
+IP_REASSEMBLY	include/lwipopts.h	516;"	d
+IP_REASS_DEBUG	include/lwipopts.h	1869;"	d
+IP_REASS_MAXAGE	include/lwipopts.h	534;"	d
+IP_REASS_MAX_PBUFS	include/lwipopts.h	544;"	d
+IP_SOF_BROADCAST	include/lwipopts.h	579;"	d
+IP_SOF_BROADCAST_RECV	include/lwipopts.h	587;"	d
+IP_STATS	include/lwipopts.h	1476;"	d
+IP_STATS	include/lwipopts.h	1541;"	d
+LCP_ECHOINTERVAL	include/lwipopts.h	1675;"	d
+LCP_MAXECHOFAILS	include/lwipopts.h	1680;"	d
+LD	Makefile	/^LD		:= $(XTENSA_TOOLS_ROOT)\/xtensa-lx106-elf-gcc$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS		= -nostdlib -Wl,--no-check-sections -u call_user_start -Wl,-static -L$(SDK_EXTRA_LIBS)$/;"	m
+LD_SCRIPT	Makefile	/^LD_SCRIPT	:= $(addprefix -T$(SDK_BASE)\/$(SDK_LDDIR)\/,$(LD_SCRIPT))$/;"	m
+LD_SCRIPT	Makefile	/^LD_SCRIPT	= eagle.app.v6.ld$/;"	m
+LED2GPIO	user/io.c	23;"	d	file:
+LEDGPIO	user/io.c	22;"	d	file:
+LIBS	Makefile	/^LIBS		:= $(addprefix -l,$(LIBS))$/;"	m
+LIBS	Makefile	/^LIBS		= c gcc hal phy pp net80211 wpa main lwip$/;"	m
+LINK_STATS	include/lwipopts.h	1462;"	d
+LINK_STATS	include/lwipopts.h	1540;"	d
+LOG	lib/heatshrink/heatshrink.c	21;"	d	file:
+LOG	lib/heatshrink/heatshrink_decoder.c	22;"	d	file:
+LOG	lib/heatshrink/heatshrink_decoder.c	34;"	d	file:
+LOG	lib/heatshrink/heatshrink_encoder.c	23;"	d	file:
+LOG	lib/heatshrink/heatshrink_encoder.c	38;"	d	file:
+LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT	include/lwipopts.h	206;"	d
+LWIP_ARP	include/lwipopts.h	418;"	d
+LWIP_AUTOIP	include/lwipopts.h	671;"	d
+LWIP_BROADCAST_PING	include/lwipopts.h	614;"	d
+LWIP_CALLBACK_API	include/lwipopts.h	1030;"	d
+LWIP_CALLBACK_API	include/lwipopts.h	1033;"	d
+LWIP_CHECKSUM_ON_COPY	include/lwipopts.h	1770;"	d
+LWIP_COMPAT_SOCKETS	include/lwipopts.h	1379;"	d
+LWIP_DBG_MIN_LEVEL	include/lwipopts.h	1784;"	d
+LWIP_DBG_TYPES_ON	include/lwipopts.h	1792;"	d
+LWIP_DHCP	include/lwipopts.h	652;"	d
+LWIP_DHCP_AUTOIP_COOP	include/lwipopts.h	679;"	d
+LWIP_DHCP_AUTOIP_COOP_TRIES	include/lwipopts.h	690;"	d
+LWIP_DNS	include/lwipopts.h	785;"	d
+LWIP_ETHERNET	include/lwipopts.h	467;"	d
+LWIP_EVENT_API	include/lwipopts.h	1029;"	d
+LWIP_EVENT_API	include/lwipopts.h	1032;"	d
+LWIP_HAVE_LOOPIF	include/lwipopts.h	1162;"	d
+LWIP_HAVE_SLIPIF	include/lwipopts.h	1174;"	d
+LWIP_ICMP	include/lwipopts.h	600;"	d
+LWIP_IGMP	include/lwipopts.h	772;"	d
+LWIP_LOOPBACK_MAX_PBUFS	include/lwipopts.h	1120;"	d
+LWIP_MULTICAST_PING	include/lwipopts.h	621;"	d
+LWIP_NETBUF_RECVINFO	include/lwipopts.h	863;"	d
+LWIP_NETCONN	include/lwipopts.h	1352;"	d
+LWIP_NETIF_API	include/lwipopts.h	1077;"	d
+LWIP_NETIF_HOSTNAME	include/lwipopts.h	1070;"	d
+LWIP_NETIF_HWADDRHINT	include/lwipopts.h	1104;"	d
+LWIP_NETIF_LINK_CALLBACK	include/lwipopts.h	1093;"	d
+LWIP_NETIF_LOOPBACK	include/lwipopts.h	1112;"	d
+LWIP_NETIF_LOOPBACK_MULTITHREADING	include/lwipopts.h	1137;"	d
+LWIP_NETIF_STATUS_CALLBACK	include/lwipopts.h	1085;"	d
+LWIP_NETIF_TX_SINGLE_PBUF	include/lwipopts.h	1150;"	d
+LWIP_POSIX_SOCKETS_IO_NAMES	include/lwipopts.h	1388;"	d
+LWIP_RAW	include/lwipopts.h	633;"	d
+LWIP_SNMP	include/lwipopts.h	703;"	d
+LWIP_SOCKET	include/lwipopts.h	1371;"	d
+LWIP_SO_RCVBUF	include/lwipopts.h	1411;"	d
+LWIP_SO_RCVTIMEO	include/lwipopts.h	1404;"	d
+LWIP_STATS	include/lwipopts.h	1446;"	d
+LWIP_STATS_DISPLAY	include/lwipopts.h	1455;"	d
+LWIP_STATS_DISPLAY	include/lwipopts.h	1550;"	d
+LWIP_TCP	include/lwipopts.h	875;"	d
+LWIP_TCPIP_CORE_LOCKING	include/lwipopts.h	1337;"	d
+LWIP_TCPIP_CORE_LOCKING_INPUT	include/lwipopts.h	1345;"	d
+LWIP_TCPIP_TIMEOUT	include/lwipopts.h	1359;"	d
+LWIP_TCP_KEEPALIVE	include/lwipopts.h	1397;"	d
+LWIP_TCP_TIMESTAMPS	include/lwipopts.h	1010;"	d
+LWIP_UDP	include/lwipopts.h	842;"	d
+LWIP_UDPLITE	include/lwipopts.h	849;"	d
+MATCH_NOT_FOUND	lib/heatshrink/heatshrink_encoder.c	57;"	d	file:
+MAXNAMELEN	include/lwipopts.h	1710;"	d
+MAXSECRETLEN	include/lwipopts.h	1713;"	d
+MAX_CONN	user/httpd.c	31;"	d	file:
+MAX_HEAD_LEN	user/httpd.c	29;"	d	file:
+MAX_LED	user/cgi.c	28;"	d	file:
+MAX_LED	user/io.c	27;"	d	file:
+MAX_POST	user/httpd.c	33;"	d	file:
+MAX_SENDBUFF_LEN	user/httpd.c	35;"	d	file:
+MD5_SUPPORT	include/lwipopts.h	1635;"	d
+MEMCPY	include/lwipopts.h	78;"	d
+MEMP_DEBUG	include/lwipopts.h	1890;"	d
+MEMP_MEM_MALLOC	include/lwipopts.h	109;"	d
+MEMP_NUM_ARP_QUEUE	include/lwipopts.h	290;"	d
+MEMP_NUM_FRAG_PBUF	include/lwipopts.h	280;"	d
+MEMP_NUM_IGMP_GROUP	include/lwipopts.h	300;"	d
+MEMP_NUM_LOCALHOSTLIST	include/lwipopts.h	391;"	d
+MEMP_NUM_NETBUF	include/lwipopts.h	316;"	d
+MEMP_NUM_NETCONN	include/lwipopts.h	324;"	d
+MEMP_NUM_NETDB	include/lwipopts.h	383;"	d
+MEMP_NUM_PBUF	include/lwipopts.h	220;"	d
+MEMP_NUM_PPPOE_INTERFACES	include/lwipopts.h	399;"	d
+MEMP_NUM_RAW_PCB	include/lwipopts.h	228;"	d
+MEMP_NUM_REASSDATA	include/lwipopts.h	269;"	d
+MEMP_NUM_SNMP_NODE	include/lwipopts.h	349;"	d
+MEMP_NUM_SNMP_ROOTNODE	include/lwipopts.h	357;"	d
+MEMP_NUM_SNMP_VALUE	include/lwipopts.h	375;"	d
+MEMP_NUM_SNMP_VARBIND	include/lwipopts.h	366;"	d
+MEMP_NUM_SYS_TIMEOUT	include/lwipopts.h	308;"	d
+MEMP_NUM_TCPIP_MSG_API	include/lwipopts.h	333;"	d
+MEMP_NUM_TCPIP_MSG_INPKT	include/lwipopts.h	342;"	d
+MEMP_NUM_TCP_PCB	include/lwipopts.h	245;"	d
+MEMP_NUM_TCP_PCB_LISTEN	include/lwipopts.h	253;"	d
+MEMP_NUM_TCP_SEG	include/lwipopts.h	261;"	d
+MEMP_NUM_UDP_PCB	include/lwipopts.h	237;"	d
+MEMP_OVERFLOW_CHECK	include/lwipopts.h	148;"	d
+MEMP_SANITY_CHECK	include/lwipopts.h	156;"	d
+MEMP_SEPARATE_POOLS	include/lwipopts.h	135;"	d
+MEMP_STATS	include/lwipopts.h	1528;"	d
+MEMP_STATS	include/lwipopts.h	1548;"	d
+MEMP_USE_CUSTOM_POOLS	include/lwipopts.h	184;"	d
+MEM_ALIGNMENT	include/lwipopts.h	118;"	d
+MEM_DEBUG	include/lwipopts.h	1883;"	d
+MEM_LIBC_MALLOC	include/lwipopts.h	100;"	d
+MEM_SIZE	include/lwipopts.h	126;"	d
+MEM_STATS	include/lwipopts.h	1521;"	d
+MEM_STATS	include/lwipopts.h	1547;"	d
+MEM_USE_POOLS	include/lwipopts.h	166;"	d
+MEM_USE_POOLS_TRY_BIGGER_POOL	include/lwipopts.h	174;"	d
+MODULES	Makefile	/^MODULES		= driver user$/;"	m
+MODULE_INCDIR	Makefile	/^MODULE_INCDIR	:= $(addsuffix \/include,$(INCDIR))$/;"	m
+MPU_WRAPPERS_INCLUDED_FROM_API_FILE	include/mem_manager.h	18;"	d
+MPU_WRAPPERS_INCLUDED_FROM_API_FILE	include/mem_manager.h	8;"	d
+MSCHAP_SUPPORT	include/lwipopts.h	1607;"	d
+MimeMap	user/httpd.c	/^} MimeMap;$/;"	t	typeref:struct:__anon34	file:
+NETIF_DEBUG	include/lwipopts.h	1806;"	d
+NONE_BITS	include/uart_hw.h	/^    NONE_BITS = 0,$/;"	e	enum:__anon3
+NONE_CTRL	include/uart_hw.h	/^    NONE_CTRL,$/;"	e	enum:__anon6
+NO_BITS	lib/heatshrink/heatshrink_decoder.c	44;"	d	file:
+NO_SYS	include/lwipopts.h	62;"	d
+NO_SYS_NO_TIMERS	include/lwipopts.h	70;"	d
+NUM_PPP	include/lwipopts.h	1586;"	d
+OBJ	Makefile	/^OBJ		:= $(patsubst %.c,$(BUILD_BASE)\/%.o,$(SRC))$/;"	m
+OBJS	lib/heatshrink/Makefile	/^OBJS= 	heatshrink_encoder.o \\$/;"	m
+OBJS	mkespfsimage/Makefile	/^OBJS=main.o heatshrink_encoder.o$/;"	m
+ODD_BITS	include/uart_hw.h	/^    ODD_BITS   = 0,$/;"	e	enum:__anon3
+ONE_HALF_STOP_BIT	include/uart_hw.h	/^    ONE_HALF_STOP_BIT        = BIT2,$/;"	e	enum:__anon2
+ONE_STOP_BIT	include/uart_hw.h	/^    ONE_STOP_BIT             = 0,$/;"	e	enum:__anon2
+OPTIMIZE	lib/heatshrink/Makefile	/^OPTIMIZE = -O3$/;"	m
+OP_DEC	lib/heatshrink/heatshrink.c	/^typedef enum { OP_ENC, OP_DEC, } Operation;$/;"	e	enum:__anon11	file:
+OP_ENC	lib/heatshrink/heatshrink.c	/^typedef enum { OP_ENC, OP_DEC, } Operation;$/;"	e	enum:__anon11	file:
+Operation	lib/heatshrink/heatshrink.c	/^typedef enum { OP_ENC, OP_DEC, } Operation;$/;"	t	typeref:enum:__anon11	file:
+PAP_SUPPORT	include/lwipopts.h	1593;"	d
+PASS	lib/heatshrink/greatest.h	577;"	d
+PASSm	lib/heatshrink/greatest.h	580;"	d
+PBUF_DEBUG	include/lwipopts.h	1813;"	d
+PBUF_LINK_HLEN	include/lwipopts.h	1048;"	d
+PBUF_POOL_BUFSIZE	include/lwipopts.h	1057;"	d
+PBUF_POOL_SIZE	include/lwipopts.h	406;"	d
+PPPOE_SUPPORT	include/lwipopts.h	1570;"	d
+PPPOS_SUPPORT	include/lwipopts.h	1577;"	d
+PPP_DEBUG	include/lwipopts.h	1989;"	d
+PPP_DEFMRU	include/lwipopts.h	1705;"	d
+PPP_MAXIDLEFLAG	include/lwipopts.h	1685;"	d
+PPP_MAXMRU	include/lwipopts.h	1703;"	d
+PPP_MAXMTU	include/lwipopts.h	1699;"	d
+PPP_MINMRU	include/lwipopts.h	1707;"	d
+PPP_MINMTU	include/lwipopts.h	1701;"	d
+PPP_MRU	include/lwipopts.h	1702;"	d
+PPP_MTU	include/lwipopts.h	1696;"	d
+PPP_SUPPORT	include/lwipopts.h	1563;"	d
+PPP_THREAD_NAME	include/lwipopts.h	1245;"	d
+PPP_THREAD_PRIO	include/lwipopts.h	1263;"	d
+PPP_THREAD_STACKSIZE	include/lwipopts.h	1254;"	d
+PROJECT	lib/heatshrink/Makefile	/^PROJECT = heatshrink$/;"	m
+Q	Makefile	/^Q := @$/;"	m
+Q	Makefile	/^Q :=$/;"	m
+RAW_DEBUG	include/lwipopts.h	1876;"	d
+RAW_TTL	include/lwipopts.h	640;"	d
+RCV_ESC_CHAR	include/uart_hw.h	/^    RCV_ESC_CHAR,$/;"	e	enum:__anon9
+RCV_MSG_BODY	include/uart_hw.h	/^    RCV_MSG_BODY,$/;"	e	enum:__anon9
+RECV_BUFSIZE_DEFAULT	include/lwipopts.h	1418;"	d
+REG_UART_BASE	include/uart_hw.h	9;"	d
+RUN_SUITE	lib/heatshrink/greatest.h	568;"	d
+RUN_TEST	lib/heatshrink/greatest.h	566;"	d
+RUN_TEST1	lib/heatshrink/greatest.h	567;"	d
+RUN_TESTp	lib/heatshrink/greatest.h	588;"	d
+RX_BUFF_SIZE	include/uart_hw.h	130;"	d
+RcvMsgBuffState	include/uart_hw.h	/^} RcvMsgBuffState;$/;"	t	typeref:enum:__anon7
+RcvMsgState	include/uart_hw.h	/^} RcvMsgState;$/;"	t	typeref:enum:__anon9
+SDK_BASE	Makefile	/^SDK_BASE	?= \/opt\/Espressif\/ESP8266_SDK$/;"	m
+SDK_EXTRA_INCLUDES	Makefile	/^SDK_EXTRA_INCLUDES ?= \/opt\/Espressif\/include$/;"	m
+SDK_EXTRA_LIBS	Makefile	/^SDK_EXTRA_LIBS ?= \/opt\/Espressif\/arch\/lib$/;"	m
+SDK_INCDIR	Makefile	/^SDK_INCDIR	:= $(addprefix -I$(SDK_BASE)\/,$(SDK_INCDIR))$/;"	m
+SDK_INCDIR	Makefile	/^SDK_INCDIR	= include include\/json$/;"	m
+SDK_LDDIR	Makefile	/^SDK_LDDIR	= ld$/;"	m
+SDK_LIBDIR	Makefile	/^SDK_LIBDIR	:= $(addprefix $(SDK_BASE)\/,$(SDK_LIBDIR))$/;"	m
+SDK_LIBDIR	Makefile	/^SDK_LIBDIR	= lib$/;"	m
+SET_SETUP	lib/heatshrink/greatest.h	583;"	d
+SET_TEARDOWN	lib/heatshrink/greatest.h	584;"	d
+SEVEN_BITS	include/uart_hw.h	/^    SEVEN_BITS = 0x2,$/;"	e	enum:__anon1
+SIX_BITS	include/uart_hw.h	/^    SIX_BITS = 0x1,$/;"	e	enum:__anon1
+SKIP	lib/heatshrink/greatest.h	579;"	d
+SKIPm	lib/heatshrink/greatest.h	582;"	d
+SLIPIF_THREAD_NAME	include/lwipopts.h	1220;"	d
+SLIPIF_THREAD_PRIO	include/lwipopts.h	1238;"	d
+SLIPIF_THREAD_STACKSIZE	include/lwipopts.h	1229;"	d
+SLIP_DEBUG	include/lwipopts.h	1996;"	d
+SMEMCPY	include/lwipopts.h	86;"	d
+SNMP_CONCURRENT_REQUESTS	include/lwipopts.h	711;"	d
+SNMP_MAX_OCTET_STRING_LEN	include/lwipopts.h	743;"	d
+SNMP_MAX_TREE_DEPTH	include/lwipopts.h	752;"	d
+SNMP_MAX_VALUE_SIZE	include/lwipopts.h	760;"	d
+SNMP_MIB_DEBUG	include/lwipopts.h	2024;"	d
+SNMP_MSG_DEBUG	include/lwipopts.h	2017;"	d
+SNMP_PRIVATE_MIB	include/lwipopts.h	726;"	d
+SNMP_SAFE_REQUESTS	include/lwipopts.h	735;"	d
+SNMP_TRAP_DESTINATIONS	include/lwipopts.h	719;"	d
+SOCKETS_DEBUG	include/lwipopts.h	1834;"	d
+SO_REUSE	include/lwipopts.h	1425;"	d
+SO_REUSE_RXTOALL	include/lwipopts.h	1434;"	d
+SRC	Makefile	/^SRC		:= $(foreach sdir,$(SRC_DIR),$(wildcard $(sdir)\/*.c))$/;"	m
+SRCH_MSG_HEAD	include/uart_hw.h	/^    SRCH_MSG_HEAD,$/;"	e	enum:__anon9
+SRC_DIR	Makefile	/^SRC_DIR		:= $(MODULES)$/;"	m
+STICK_PARITY_DIS	include/uart_hw.h	/^    STICK_PARITY_DIS   = 0,$/;"	e	enum:__anon4
+STICK_PARITY_EN	include/uart_hw.h	/^    STICK_PARITY_EN    = BIT3 | BIT5$/;"	e	enum:__anon4
+SUITE	lib/heatshrink/greatest.h	/^SUITE(suite) {$/;"	f
+SUITE	lib/heatshrink/greatest.h	565;"	d
+SUITE	lib/heatshrink/test_heatshrink_dynamic.c	/^SUITE(decoding) {$/;"	f
+SUITE	lib/heatshrink/test_heatshrink_dynamic.c	/^SUITE(encoding) {$/;"	f
+SUITE	lib/heatshrink/test_heatshrink_dynamic.c	/^SUITE(integration) {$/;"	f
+SUITE	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^SUITE(properties) {$/;"	f
+SUITE	lib/heatshrink/test_heatshrink_static.c	/^SUITE(integration) {$/;"	f
+SYS_DEBUG	include/lwipopts.h	1897;"	d
+SYS_LIGHTWEIGHT_PROT	include/lwipopts.h	54;"	d
+SYS_STATS	include/lwipopts.h	1535;"	d
+SYS_STATS	include/lwipopts.h	1549;"	d
+ScanResultData	user/cgiwifi.c	/^} ScanResultData;$/;"	t	typeref:struct:__anon36	file:
+TARGET	Makefile	/^TARGET		= httpd$/;"	m
+TARGET	mkespfsimage/Makefile	/^TARGET=mkespfsimage$/;"	m
+TARGET_OUT	Makefile	/^TARGET_OUT	:= $(addprefix $(BUILD_BASE)\/,$(TARGET).out)$/;"	m
+TCPIP_DEBUG	include/lwipopts.h	1982;"	d
+TCPIP_MBOX_SIZE	include/lwipopts.h	1213;"	d
+TCPIP_THREAD_NAME	include/lwipopts.h	1186;"	d
+TCPIP_THREAD_PRIO	include/lwipopts.h	1204;"	d
+TCPIP_THREAD_STACKSIZE	include/lwipopts.h	1195;"	d
+TCP_CALCULATE_EFF_SEND_MSS	include/lwipopts.h	935;"	d
+TCP_CWND_DEBUG	include/lwipopts.h	1940;"	d
+TCP_DEBUG	include/lwipopts.h	1911;"	d
+TCP_DEFAULT_LISTEN_BACKLOG	include/lwipopts.h	985;"	d
+TCP_FR_DEBUG	include/lwipopts.h	1925;"	d
+TCP_INPUT_DEBUG	include/lwipopts.h	1918;"	d
+TCP_LISTEN_BACKLOG	include/lwipopts.h	976;"	d
+TCP_MAXRTX	include/lwipopts.h	897;"	d
+TCP_MSS	include/lwipopts.h	923;"	d
+TCP_OUTPUT_DEBUG	include/lwipopts.h	1954;"	d
+TCP_OVERSIZE	include/lwipopts.h	1003;"	d
+TCP_QLEN_DEBUG	include/lwipopts.h	1968;"	d
+TCP_QUEUE_OOSEQ	include/lwipopts.h	912;"	d
+TCP_RST_DEBUG	include/lwipopts.h	1961;"	d
+TCP_RTO_DEBUG	include/lwipopts.h	1933;"	d
+TCP_SNDLOWAT	include/lwipopts.h	960;"	d
+TCP_SNDQUEUELOWAT	include/lwipopts.h	969;"	d
+TCP_SND_BUF	include/lwipopts.h	943;"	d
+TCP_SND_QUEUELEN	include/lwipopts.h	951;"	d
+TCP_STATS	include/lwipopts.h	1514;"	d
+TCP_STATS	include/lwipopts.h	1546;"	d
+TCP_SYNMAXRTX	include/lwipopts.h	904;"	d
+TCP_TTL	include/lwipopts.h	882;"	d
+TCP_WND	include/lwipopts.h	890;"	d
+TCP_WND_DEBUG	include/lwipopts.h	1947;"	d
+TCP_WND_UPDATE_THRESHOLD	include/lwipopts.h	1018;"	d
+TEST	lib/heatshrink/greatest.h	564;"	d
+TIMERS_DEBUG	include/lwipopts.h	1904;"	d
+TWO_STOP_BIT	include/uart_hw.h	/^    TWO_STOP_BIT             = BIT2$/;"	e	enum:__anon2
+TX_BUFF_SIZE	include/uart_hw.h	131;"	d
+TplCallback	user/httpdespfs.c	/^typedef void (* TplCallback)(HttpdConnData *connData, char *token, void **arg);$/;"	t	file:
+TplData	user/httpdespfs.c	/^} TplData;$/;"	t	typeref:struct:__anon33	file:
+TrxBuffSize	include/uart_hw.h	/^    uint32   TrxBuffSize;$/;"	m	struct:__anon8
+TrxMsgBuff	include/uart_hw.h	/^} TrxMsgBuff;$/;"	t	typeref:struct:__anon8
+UART0	include/uart_hw.h	132;"	d
+UART1	include/uart_hw.h	133;"	d
+UART_AUTOBAUD	include/uart_hw.h	64;"	d
+UART_AUTOBAUD_EN	include/uart_hw.h	67;"	d
+UART_BIT_NUM	include/uart_hw.h	97;"	d
+UART_BIT_NUM_S	include/uart_hw.h	98;"	d
+UART_BRK_DET_INT_CLR	include/uart_hw.h	51;"	d
+UART_BRK_DET_INT_ENA	include/uart_hw.h	40;"	d
+UART_BRK_DET_INT_RAW	include/uart_hw.h	18;"	d
+UART_BRK_DET_INT_ST	include/uart_hw.h	29;"	d
+UART_CLKDIV	include/uart_hw.h	60;"	d
+UART_CLKDIV_CNT	include/uart_hw.h	61;"	d
+UART_CLKDIV_S	include/uart_hw.h	62;"	d
+UART_CONF0	include/uart_hw.h	81;"	d
+UART_CONF1	include/uart_hw.h	102;"	d
+UART_CTSN	include/uart_hw.h	76;"	d
+UART_CTS_CHG_INT_CLR	include/uart_hw.h	52;"	d
+UART_CTS_CHG_INT_ENA	include/uart_hw.h	41;"	d
+UART_CTS_CHG_INT_RAW	include/uart_hw.h	19;"	d
+UART_CTS_CHG_INT_ST	include/uart_hw.h	30;"	d
+UART_DATE	include/uart_hw.h	126;"	d
+UART_DSRN	include/uart_hw.h	77;"	d
+UART_DSR_CHG_INT_CLR	include/uart_hw.h	53;"	d
+UART_DSR_CHG_INT_ENA	include/uart_hw.h	42;"	d
+UART_DSR_CHG_INT_RAW	include/uart_hw.h	20;"	d
+UART_DSR_CHG_INT_ST	include/uart_hw.h	31;"	d
+UART_DTRN	include/uart_hw.h	72;"	d
+UART_FIFO	include/uart_hw.h	12;"	d
+UART_FRM_ERR_INT_CLR	include/uart_hw.h	55;"	d
+UART_FRM_ERR_INT_ENA	include/uart_hw.h	44;"	d
+UART_FRM_ERR_INT_RAW	include/uart_hw.h	22;"	d
+UART_FRM_ERR_INT_ST	include/uart_hw.h	33;"	d
+UART_GLITCH_FILT	include/uart_hw.h	65;"	d
+UART_GLITCH_FILT_S	include/uart_hw.h	66;"	d
+UART_HIGHPULSE	include/uart_hw.h	118;"	d
+UART_HIGHPULSE_MIN_CNT	include/uart_hw.h	119;"	d
+UART_HIGHPULSE_MIN_CNT_S	include/uart_hw.h	120;"	d
+UART_ID	include/uart_hw.h	127;"	d
+UART_INT_CLR	include/uart_hw.h	49;"	d
+UART_INT_ENA	include/uart_hw.h	38;"	d
+UART_INT_RAW	include/uart_hw.h	16;"	d
+UART_INT_ST	include/uart_hw.h	27;"	d
+UART_IRDA_DPLX	include/uart_hw.h	91;"	d
+UART_IRDA_EN	include/uart_hw.h	84;"	d
+UART_IRDA_RX_INV	include/uart_hw.h	87;"	d
+UART_IRDA_TX_EN	include/uart_hw.h	90;"	d
+UART_IRDA_TX_INV	include/uart_hw.h	88;"	d
+UART_IRDA_WCTL	include/uart_hw.h	89;"	d
+UART_LOOPBACK	include/uart_hw.h	86;"	d
+UART_LOWPULSE	include/uart_hw.h	114;"	d
+UART_LOWPULSE_MIN_CNT	include/uart_hw.h	115;"	d
+UART_LOWPULSE_MIN_CNT_S	include/uart_hw.h	116;"	d
+UART_PARITY	include/uart_hw.h	100;"	d
+UART_PARITY_EN	include/uart_hw.h	99;"	d
+UART_PARITY_ERR_INT_CLR	include/uart_hw.h	56;"	d
+UART_PARITY_ERR_INT_ENA	include/uart_hw.h	45;"	d
+UART_PARITY_ERR_INT_RAW	include/uart_hw.h	23;"	d
+UART_PARITY_ERR_INT_ST	include/uart_hw.h	34;"	d
+UART_PULSE_NUM	include/uart_hw.h	122;"	d
+UART_PULSE_NUM_CNT	include/uart_hw.h	123;"	d
+UART_PULSE_NUM_CNT_S	include/uart_hw.h	124;"	d
+UART_REGISTER_H_INCLUDED	include/uart_hw.h	8;"	d
+UART_RTSN	include/uart_hw.h	71;"	d
+UART_RXD	include/uart_hw.h	75;"	d
+UART_RXFIFO_CNT	include/uart_hw.h	78;"	d
+UART_RXFIFO_CNT_S	include/uart_hw.h	79;"	d
+UART_RXFIFO_FULL_INT_CLR	include/uart_hw.h	58;"	d
+UART_RXFIFO_FULL_INT_ENA	include/uart_hw.h	47;"	d
+UART_RXFIFO_FULL_INT_RAW	include/uart_hw.h	25;"	d
+UART_RXFIFO_FULL_INT_ST	include/uart_hw.h	36;"	d
+UART_RXFIFO_FULL_THRHD	include/uart_hw.h	111;"	d
+UART_RXFIFO_FULL_THRHD_S	include/uart_hw.h	112;"	d
+UART_RXFIFO_OVF_INT_CLR	include/uart_hw.h	54;"	d
+UART_RXFIFO_OVF_INT_ENA	include/uart_hw.h	43;"	d
+UART_RXFIFO_OVF_INT_RAW	include/uart_hw.h	21;"	d
+UART_RXFIFO_OVF_INT_ST	include/uart_hw.h	32;"	d
+UART_RXFIFO_RD_BYTE	include/uart_hw.h	13;"	d
+UART_RXFIFO_RD_BYTE_S	include/uart_hw.h	14;"	d
+UART_RXFIFO_RST	include/uart_hw.h	83;"	d
+UART_RXFIFO_TOUT_INT_CLR	include/uart_hw.h	50;"	d
+UART_RXFIFO_TOUT_INT_ENA	include/uart_hw.h	39;"	d
+UART_RXFIFO_TOUT_INT_RAW	include/uart_hw.h	17;"	d
+UART_RXFIFO_TOUT_INT_ST	include/uart_hw.h	28;"	d
+UART_RX_FLOW_EN	include/uart_hw.h	106;"	d
+UART_RX_FLOW_THRHD	include/uart_hw.h	107;"	d
+UART_RX_FLOW_THRHD_S	include/uart_hw.h	108;"	d
+UART_RX_TOUT_EN	include/uart_hw.h	103;"	d
+UART_RX_TOUT_THRHD	include/uart_hw.h	104;"	d
+UART_RX_TOUT_THRHD_S	include/uart_hw.h	105;"	d
+UART_STATUS	include/uart_hw.h	69;"	d
+UART_STOP_BIT_NUM	include/uart_hw.h	95;"	d
+UART_STOP_BIT_NUM_S	include/uart_hw.h	96;"	d
+UART_SW_DTR	include/uart_hw.h	93;"	d
+UART_SW_RTS	include/uart_hw.h	94;"	d
+UART_TXD	include/uart_hw.h	70;"	d
+UART_TXD_BRK	include/uart_hw.h	92;"	d
+UART_TXFIFO_CNT	include/uart_hw.h	73;"	d
+UART_TXFIFO_CNT_S	include/uart_hw.h	74;"	d
+UART_TXFIFO_EMPTY_INT_CLR	include/uart_hw.h	57;"	d
+UART_TXFIFO_EMPTY_INT_ENA	include/uart_hw.h	46;"	d
+UART_TXFIFO_EMPTY_INT_RAW	include/uart_hw.h	24;"	d
+UART_TXFIFO_EMPTY_INT_ST	include/uart_hw.h	35;"	d
+UART_TXFIFO_EMPTY_THRHD	include/uart_hw.h	109;"	d
+UART_TXFIFO_EMPTY_THRHD_S	include/uart_hw.h	110;"	d
+UART_TXFIFO_RST	include/uart_hw.h	82;"	d
+UART_TX_FLOW_EN	include/uart_hw.h	85;"	d
+UDP_DEBUG	include/lwipopts.h	1975;"	d
+UDP_STATS	include/lwipopts.h	1506;"	d
+UDP_STATS	include/lwipopts.h	1545;"	d
+UDP_TTL	include/lwipopts.h	856;"	d
+UNDER_WRITE	include/uart_hw.h	/^    UNDER_WRITE,$/;"	e	enum:__anon7
+UPAP_DEFREQTIME	include/lwipopts.h	1662;"	d
+UPAP_DEFTIMEOUT	include/lwipopts.h	1658;"	d
+UartBautRate	include/uart_hw.h	/^} UartBautRate;$/;"	t	typeref:enum:__anon5
+UartBitsNum4Char	include/uart_hw.h	/^} UartBitsNum4Char;$/;"	t	typeref:enum:__anon1
+UartExistParity	include/uart_hw.h	/^} UartExistParity;$/;"	t	typeref:enum:__anon4
+UartFlowCtrl	include/uart_hw.h	/^} UartFlowCtrl;$/;"	t	typeref:enum:__anon6
+UartParityMode	include/uart_hw.h	/^} UartParityMode;$/;"	t	typeref:enum:__anon3
+UartStopBitsNum	include/uart_hw.h	/^} UartStopBitsNum;$/;"	t	typeref:enum:__anon2
+V	Makefile	/^V ?= $(VERBOSE)$/;"	m
+VJ_SUPPORT	include/lwipopts.h	1628;"	d
+WAIT_SYNC_FRM	include/uart_hw.h	/^    WAIT_SYNC_FRM,$/;"	e	enum:__anon9
+WARN	lib/heatshrink/Makefile	/^WARN = -Wall -Wextra -pedantic #-Werror$/;"	m
+WRITE_OVER	include/uart_hw.h	/^    WRITE_OVER$/;"	e	enum:__anon7
+XON_XOFF_CTRL	include/uart_hw.h	/^    XON_XOFF_CTRL$/;"	e	enum:__anon6
+XTENSA_TOOLS_ROOT	Makefile	/^XTENSA_TOOLS_ROOT ?= \/opt\/Espressif\/crosstool-NG\/builds\/xtensa-lx106-elf\/bin$/;"	m
+_STDDEF_H	user/heatshrink_decoder.c	8;"	d	file:
+_STDINT_H	user/heatshrink_decoder.c	9;"	d	file:
+_STDLIB_H_	user/heatshrink_decoder.c	6;"	d	file:
+_STRING_H_	user/heatshrink_decoder.c	7;"	d	file:
+__LWIPOPTS_H__	include/lwipopts.h	39;"	d
+__MEM_MANAGER_H__	include/mem_manager.h	2;"	d
+add_tag_bit	lib/heatshrink/heatshrink_encoder.c	/^static void add_tag_bit(heatshrink_encoder *hse, output_info *oi, uint8_t tag) {$/;"	f	file:
+apData	user/cgiwifi.c	/^	ApData **apData;$/;"	m	struct:__anon36	file:
+authBasic	user/auth.c	/^int ICACHE_FLASH_ATTR authBasic(HttpdConnData *connData) {$/;"	f
+author	lib/heatshrink/heatshrink.c	/^static const char author[] = HEATSHRINK_AUTHOR;$/;"	v	file:
+backlog_is_filled	lib/heatshrink/heatshrink_encoder.c	/^static int backlog_is_filled(heatshrink_encoder *hse) {$/;"	f	file:
+backlog_is_partial	lib/heatshrink/heatshrink_encoder.c	/^static int backlog_is_partial(heatshrink_encoder *hse) {$/;"	f	file:
+base64_decode	user/base64.c	/^int ICACHE_FLASH_ATTR base64_decode(size_t in_len, const char *in, size_t out_len, unsigned char *out) {$/;"	f
+base64dec_tab	user/base64.c	/^static const uint8_t base64dec_tab[256]= {$/;"	v	file:
+begin	lib/heatshrink/greatest.h	/^    clock_t begin;$/;"	m	struct:greatest_run_info
+bit_accumulator	lib/heatshrink/heatshrink_decoder.h	/^    uint16_t bit_accumulator;$/;"	m	struct:__anon27
+bit_index	lib/heatshrink/heatshrink_decoder.h	/^    uint8_t bit_index;          \/* current bit index *\/$/;"	m	struct:__anon27
+bit_index	lib/heatshrink/heatshrink_encoder.h	/^    uint8_t bit_index;          \/* current bit index *\/$/;"	m	struct:__anon19
+buf	lib/heatshrink/heatshrink.c	/^    uint8_t buf[];$/;"	m	struct:__anon12	file:
+buf	lib/heatshrink/heatshrink_decoder.c	/^    uint8_t *buf;               \/* output buffer *\/$/;"	m	struct:__anon15	file:
+buf	lib/heatshrink/heatshrink_encoder.c	/^    uint8_t *buf;               \/* output buffer *\/$/;"	m	struct:__anon23	file:
+buf	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^    uint8_t buf[];$/;"	m	struct:__anon29	file:
+buf_size	lib/heatshrink/heatshrink_decoder.c	/^    size_t buf_size;            \/* buffer size *\/$/;"	m	struct:__anon15	file:
+buf_size	lib/heatshrink/heatshrink_encoder.c	/^    size_t buf_size;            \/* buffer size *\/$/;"	m	struct:__anon23	file:
+buffer	lib/heatshrink/heatshrink_encoder.h	/^    uint8_t buffer[2 << HEATSHRINK_ENCODER_WINDOW_BITS(_)];$/;"	m	struct:__anon19
+buffer	lib/heatshrink/heatshrink_encoder.h	/^    uint8_t buffer[];$/;"	m	struct:__anon19
+buffer_size	lib/heatshrink/heatshrink.c	/^    size_t buffer_size;$/;"	m	struct:__anon13	file:
+buffers	lib/heatshrink/heatshrink_decoder.h	/^    uint8_t buffers[(1 << HEATSHRINK_DECODER_WINDOW_BITS(_))$/;"	m	struct:__anon27
+buffers	lib/heatshrink/heatshrink_decoder.h	/^    uint8_t buffers[];$/;"	m	struct:__anon27
+builtInUrls	user/httpd.c	/^static HttpdBuiltInUrl *builtInUrls;$/;"	v	file:
+builtInUrls	user/user_main.c	/^HttpdBuiltInUrl builtInUrls[]={$/;"	v
+can_take_byte	lib/heatshrink/heatshrink_encoder.c	/^static int can_take_byte(output_info *oi) {$/;"	f	file:
+ceil_nine_eighths	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^static size_t ceil_nine_eighths(size_t sz) {$/;"	f	file:
+cfg_info	lib/heatshrink/test_heatshrink_dynamic.c	/^} cfg_info;$/;"	t	typeref:struct:__anon20	file:
+cgi	user/httpd.h	/^	cgiSendCallback cgi;$/;"	m	struct:HttpdConnData
+cgiArg	user/httpd.h	/^	const void *cgiArg;$/;"	m	struct:HttpdConnData
+cgiArg	user/httpd.h	/^	const void *cgiArg;$/;"	m	struct:__anon32
+cgiCb	user/httpd.h	/^	cgiSendCallback cgiCb;$/;"	m	struct:__anon32
+cgiData	user/httpd.h	/^	void *cgiData;$/;"	m	struct:HttpdConnData
+cgiEspFsHook	user/httpdespfs.c	/^int ICACHE_FLASH_ATTR cgiEspFsHook(HttpdConnData *connData) {$/;"	f
+cgiEspFsTemplate	user/httpdespfs.c	/^int ICACHE_FLASH_ATTR cgiEspFsTemplate(HttpdConnData *connData) {$/;"	f
+cgiReadFlash	user/cgi.c	/^int ICACHE_FLASH_ATTR cgiReadFlash(HttpdConnData *connData) {$/;"	f
+cgiRedirect	user/httpd.c	/^int ICACHE_FLASH_ATTR cgiRedirect(HttpdConnData *connData) {$/;"	f
+cgiRelay	user/cgi.c	/^int ICACHE_FLASH_ATTR cgiRelay(HttpdConnData *connData ) {$/;"	f
+cgiSendCallback	user/httpd.h	/^typedef int (* cgiSendCallback)(HttpdConnData *connData);$/;"	t
+cgiWiFiConnect	user/cgiwifi.c	/^int ICACHE_FLASH_ATTR cgiWiFiConnect(HttpdConnData *connData) {$/;"	f
+cgiWiFiScan	user/cgiwifi.c	/^int ICACHE_FLASH_ATTR cgiWiFiScan(HttpdConnData *connData) {$/;"	f
+cgiWifiAps	user/cgiwifi.c	/^ScanResultData cgiWifiAps;$/;"	v
+cgiWifiSetMode	user/cgiwifi.c	/^int ICACHE_FLASH_ATTR cgiWifiSetMode(HttpdConnData *connData) {$/;"	f
+close_and_report	lib/heatshrink/heatshrink.c	/^static void close_and_report(config *cfg) {$/;"	f	file:
+cmd	lib/heatshrink/heatshrink.c	/^    Operation cmd;$/;"	m	struct:__anon13	file:
+col	lib/heatshrink/greatest.h	/^    unsigned int col;$/;"	m	struct:greatest_run_info
+compile-objects	Makefile	/^define compile-objects$/;"	m
+compressHeatshrink	mkespfsimage/main.c	/^size_t compressHeatshrink(char *in, int insize, char *out, int outsize, int level) {$/;"	f
+compress_and_expand_and_check	lib/heatshrink/test_heatshrink_dynamic.c	/^static int compress_and_expand_and_check(uint8_t *input, uint32_t input_size, cfg_info *cfg) {$/;"	f	file:
+compress_and_expand_and_check	lib/heatshrink/test_heatshrink_static.c	/^static int compress_and_expand_and_check(uint8_t *input, uint32_t input_size, int log_lvl) {$/;"	f	file:
+compression	mkespfsimage/espfsformat.h	/^	int8_t compression;$/;"	m	struct:__anon31
+config	lib/heatshrink/heatshrink.c	/^} config;$/;"	t	typeref:struct:__anon13	file:
+configTOTAL_HEAP_SIZE	include/mem_manager.h	12;"	d
+configUSE_MALLOC_FAILED_HOOK	include/mem_manager.h	39;"	d
+conn	user/httpd.h	/^	struct espconn *conn;$/;"	m	struct:HttpdConnData	typeref:struct:HttpdConnData::espconn
+connData	user/httpd.c	/^static HttpdConnData connData[MAX_CONN];$/;"	v	file:
+connPrivData	user/httpd.c	/^static HttpdPriv connPrivData[MAX_CONN];$/;"	v	file:
+copy_rbuf_percent	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^static void *copy_rbuf_percent(rbuf *cur, float portion, float offset) {$/;"	f	file:
+copy_rbuf_subset	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^static void *copy_rbuf_subset(rbuf *cur, size_t new_sz, size_t byte_offset) {$/;"	f	file:
+currLedState	user/cgi.c	/^static char currLedState[MAX_LED]={0,0};$/;"	v	file:
+current_byte	lib/heatshrink/heatshrink_decoder.h	/^    uint8_t current_byte;       \/* current byte of input *\/$/;"	m	struct:__anon27
+current_byte	lib/heatshrink/heatshrink_encoder.h	/^    uint8_t current_byte;       \/* current byte of output *\/$/;"	m	struct:__anon19
+data_with_simple_repetition_should_compress_and_decompress_properly	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST data_with_simple_repetition_should_compress_and_decompress_properly(void) {$/;"	f
+data_with_simple_repetition_should_match_with_absurdly_tiny_buffers	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST data_with_simple_repetition_should_match_with_absurdly_tiny_buffers(void) {$/;"	f
+data_without_duplication_should_match	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST data_without_duplication_should_match(void) {$/;"	f
+data_without_duplication_should_match_with_absurdly_tiny_buffers	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST data_without_duplication_should_match_with_absurdly_tiny_buffers(void) {$/;"	f
+decode	lib/heatshrink/heatshrink.c	/^static int decode(config *cfg) {$/;"	f	file:
+decoder_alloc_should_reject_excessively_small_window	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST decoder_alloc_should_reject_excessively_small_window(void) {$/;"	f
+decoder_alloc_should_reject_zero_byte_input_buffer	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST decoder_alloc_should_reject_zero_byte_input_buffer(void) {$/;"	f
+decoder_finish_should_note_when_done	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST decoder_finish_should_note_when_done(void) {$/;"	f
+decoder_finish_should_reject_null_input	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST decoder_finish_should_reject_null_input(void) {$/;"	f
+decoder_fuzzing_should_not_detect_stuck_state	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^TEST decoder_fuzzing_should_not_detect_stuck_state(void) {$/;"	f
+decoder_input_buffer_size	lib/heatshrink/heatshrink.c	/^    size_t decoder_input_buffer_size;$/;"	m	struct:__anon13	file:
+decoder_input_buffer_size	lib/heatshrink/test_heatshrink_dynamic.c	/^    size_t decoder_input_buffer_size;$/;"	m	struct:__anon20	file:
+decoder_poll_should_expand_short_literal	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST decoder_poll_should_expand_short_literal(void) {$/;"	f
+decoder_poll_should_expand_short_literal_and_backref	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST decoder_poll_should_expand_short_literal_and_backref(void) {$/;"	f
+decoder_poll_should_expand_short_literal_and_backref_when_fed_input_byte_by_byte	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST decoder_poll_should_expand_short_literal_and_backref_when_fed_input_byte_by_byte(void) {$/;"	f
+decoder_poll_should_expand_short_self_overlapping_backref	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST decoder_poll_should_expand_short_self_overlapping_backref(void) {$/;"	f
+decoder_poll_should_reject_null_hsd	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST decoder_poll_should_reject_null_hsd(void) {$/;"	f
+decoder_poll_should_reject_null_output_buffer	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST decoder_poll_should_reject_null_output_buffer(void) {$/;"	f
+decoder_poll_should_reject_null_output_size_pointer	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST decoder_poll_should_reject_null_output_size_pointer(void) {$/;"	f
+decoder_poll_should_return_empty_if_empty	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST decoder_poll_should_return_empty_if_empty(void) {$/;"	f
+decoder_poll_should_suspend_if_out_of_space_in_output_buffer_during_backref_expansion	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST decoder_poll_should_suspend_if_out_of_space_in_output_buffer_during_backref_expansion(void) {$/;"	f
+decoder_poll_should_suspend_if_out_of_space_in_output_buffer_during_literal_expansion	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST decoder_poll_should_suspend_if_out_of_space_in_output_buffer_during_literal_expansion(void) {$/;"	f
+decoder_should_always_make_progress	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^TEST decoder_should_always_make_progress(void) {$/;"	f
+decoder_should_not_get_stuck_with_finish_yielding_MORE_but_0_bytes_output_from_poll	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST decoder_should_not_get_stuck_with_finish_yielding_MORE_but_0_bytes_output_from_poll(void) {$/;"	f
+decoder_sink_read	lib/heatshrink/heatshrink.c	/^static int decoder_sink_read(config *cfg, heatshrink_decoder *hsd,$/;"	f	file:
+decoder_sink_should_reject_excessively_large_input	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST decoder_sink_should_reject_excessively_large_input(void) {$/;"	f
+decoder_sink_should_reject_null_count_pointer	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST decoder_sink_should_reject_null_count_pointer(void) {$/;"	f
+decoder_sink_should_reject_null_hsd_pointer	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST decoder_sink_should_reject_null_hsd_pointer(void) {$/;"	f
+decoder_sink_should_reject_null_input_pointer	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST decoder_sink_should_reject_null_input_pointer(void) {$/;"	f
+decoder_sink_should_sink_data_when_preconditions_hold	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST decoder_sink_should_sink_data_when_preconditions_hold(void) {$/;"	f
+decoding	lib/heatshrink/test_heatshrink_dynamic.c	/^SUITE(decoding);$/;"	v
+decompData	user/espfs.c	/^	void *decompData;$/;"	m	struct:EspFsFile	file:
+decompressor	user/espfs.c	/^	char decompressor;$/;"	m	struct:EspFsFile	file:
+die	lib/heatshrink/heatshrink.c	/^static void die(char *msg) {$/;"	f	file:
+do_indexing	lib/heatshrink/heatshrink_encoder.c	/^static void do_indexing(heatshrink_encoder *hse) {$/;"	f	file:
+dots	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^    int dots;$/;"	m	struct:__anon28	file:
+dump_buf	lib/heatshrink/test_heatshrink_dynamic.c	/^static void dump_buf(char *name, uint8_t *buf, uint16_t count) {$/;"	f	file:
+dump_buf	lib/heatshrink/test_heatshrink_static.c	/^static void dump_buf(char *name, uint8_t *buf, uint16_t count) {$/;"	f	file:
+enc	user/cgiwifi.c	/^	char enc;$/;"	m	struct:__anon35	file:
+encode	lib/heatshrink/heatshrink.c	/^static int encode(config *cfg) {$/;"	f	file:
+encoded_and_decoded_data_should_match	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^TEST encoded_and_decoded_data_should_match(void) {$/;"	f
+encoder_alloc_should_reject_invalid_arguments	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST encoder_alloc_should_reject_invalid_arguments(void) {$/;"	f
+encoder_finish_should_reject_nulls	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST encoder_finish_should_reject_nulls(void) {$/;"	f
+encoder_poll_should_detect_repeated_substring	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST encoder_poll_should_detect_repeated_substring(void) {$/;"	f
+encoder_poll_should_detect_repeated_substring_and_preserve_trailing_literal	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST encoder_poll_should_detect_repeated_substring_and_preserve_trailing_literal(void) {$/;"	f
+encoder_poll_should_indicate_when_no_input_is_provided	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST encoder_poll_should_indicate_when_no_input_is_provided(void) {$/;"	f
+encoder_poll_should_reject_nulls	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST encoder_poll_should_reject_nulls(void) {$/;"	f
+encoder_should_always_make_progress	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^TEST encoder_should_always_make_progress(void) {$/;"	f
+encoder_should_emit_data_without_repetitions_as_literal_sequence	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST encoder_should_emit_data_without_repetitions_as_literal_sequence(void) {$/;"	f
+encoder_should_emit_series_of_same_byte_as_literal_then_backref	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST encoder_should_emit_series_of_same_byte_as_literal_then_backref(void) {$/;"	f
+encoder_sink_read	lib/heatshrink/heatshrink.c	/^static int encoder_sink_read(config *cfg, heatshrink_encoder *hse,$/;"	f	file:
+encoder_sink_should_accept_input_when_it_will_fit	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST encoder_sink_should_accept_input_when_it_will_fit(void) {$/;"	f
+encoder_sink_should_accept_partial_input_when_some_will_fit	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST encoder_sink_should_accept_partial_input_when_some_will_fit(void) {$/;"	f
+encoder_sink_should_reject_nulls	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST encoder_sink_should_reject_nulls(void) {$/;"	f
+encoding	lib/heatshrink/test_heatshrink_dynamic.c	/^SUITE(encoding);$/;"	v
+encoding_data_should_never_increase_it_by_more_than_an_eighth_at_worst	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^TEST encoding_data_should_never_increase_it_by_more_than_an_eighth_at_worst(void) {$/;"	f
+end	lib/heatshrink/greatest.h	/^    clock_t end;$/;"	m	struct:greatest_run_info
+espFsClose	user/espfs.c	/^void ICACHE_FLASH_ATTR espFsClose(EspFsFile *fh) {$/;"	f
+espFsData	espfstest/main.c	/^char *espFsData;$/;"	v
+espFsOpen	user/espfs.c	/^EspFsFile ICACHE_FLASH_ATTR *espFsOpen(char *fileName) {$/;"	f
+espFsRead	user/espfs.c	/^int ICACHE_FLASH_ATTR espFsRead(EspFsFile *fh, char *buff, int len) {$/;"	f
+espconn	include/espmissingincludes.h	/^typedef struct espconn espconn;$/;"	t	typeref:struct:espconn
+ext	user/httpd.c	/^	const char *ext;$/;"	m	struct:__anon34	file:
+fail_file	lib/heatshrink/greatest.h	/^    const char *fail_file;$/;"	m	struct:greatest_run_info
+fail_line	lib/heatshrink/greatest.h	/^    unsigned int fail_line;$/;"	m	struct:greatest_run_info
+failed	lib/heatshrink/greatest.h	/^    unsigned int failed;$/;"	m	struct:greatest_run_info
+failed	lib/heatshrink/greatest.h	/^    unsigned int failed;$/;"	m	struct:greatest_suite_info
+fails	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^    int fails;$/;"	m	struct:__anon28	file:
+fd	lib/heatshrink/heatshrink.c	/^    int fd;                     \/* file descriptor *\/$/;"	m	struct:__anon12	file:
+file	user/httpdespfs.c	/^	EspFsFile *file;$/;"	m	struct:__anon33	file:
+fileLenComp	mkespfsimage/espfsformat.h	/^	int32_t fileLenComp;$/;"	m	struct:__anon31
+fileLenDecomp	mkespfsimage/espfsformat.h	/^	int32_t fileLenDecomp;$/;"	m	struct:__anon31
+fill	lib/heatshrink/heatshrink.c	/^    size_t fill;                \/* fill index *\/$/;"	m	struct:__anon12	file:
+fill_with_pseudorandom_letters	lib/heatshrink/test_heatshrink_dynamic.c	/^static void fill_with_pseudorandom_letters(uint8_t *buf, uint32_t size, uint32_t seed) {$/;"	f	file:
+fill_with_pseudorandom_letters	lib/heatshrink/test_heatshrink_static.c	/^static void fill_with_pseudorandom_letters(uint8_t *buf, uint16_t size, uint32_t seed) {$/;"	f	file:
+find_longest_match	lib/heatshrink/heatshrink_encoder.c	/^static uint16_t find_longest_match(heatshrink_encoder *hse, uint16_t start,$/;"	f	file:
+finishArchive	mkespfsimage/main.c	/^void finishArchive() {$/;"	f
+flags	lib/heatshrink/greatest.h	/^    unsigned int flags;$/;"	m	struct:greatest_run_info
+flags	lib/heatshrink/heatshrink_encoder.h	/^    uint8_t flags;$/;"	m	struct:__anon19
+flags	mkespfsimage/espfsformat.h	/^	int8_t flags;$/;"	m	struct:__anon31
+foo_should_foo	lib/heatshrink/greatest.h	/^TEST foo_should_foo() {$/;"	f
+gen	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST gen(void) {$/;"	f
+getArgs	user/httpd.h	/^	char *getArgs;$/;"	m	struct:HttpdConnData
+get_bits	lib/heatshrink/heatshrink_decoder.c	/^static uint32_t get_bits(heatshrink_decoder *hsd, uint8_t count) {$/;"	f	file:
+get_input_buffer_size	lib/heatshrink/heatshrink_encoder.c	/^static uint16_t get_input_buffer_size(heatshrink_encoder *hse) {$/;"	f	file:
+get_input_offset	lib/heatshrink/heatshrink_encoder.c	/^static uint16_t get_input_offset(heatshrink_encoder *hse) {$/;"	f	file:
+get_lookahead_size	lib/heatshrink/heatshrink_encoder.c	/^static uint16_t get_lookahead_size(heatshrink_encoder *hse) {$/;"	f	file:
+get_time_seed	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^static bool get_time_seed(theft_seed *seed)$/;"	f	file:
+greatest_run_info	lib/heatshrink/greatest.h	/^typedef struct greatest_run_info {$/;"	s
+greatest_run_info	lib/heatshrink/greatest.h	/^} greatest_run_info;$/;"	t	typeref:struct:greatest_run_info
+greatest_setup_cb	lib/heatshrink/greatest.h	/^typedef void (greatest_setup_cb)(void *udata);$/;"	t
+greatest_suite_cb	lib/heatshrink/greatest.h	/^typedef void (greatest_suite_cb)(void);$/;"	t
+greatest_suite_info	lib/heatshrink/greatest.h	/^typedef struct greatest_suite_info {$/;"	s
+greatest_suite_info	lib/heatshrink/greatest.h	/^} greatest_suite_info;$/;"	t	typeref:struct:greatest_suite_info
+greatest_teardown_cb	lib/heatshrink/greatest.h	/^typedef void (greatest_teardown_cb)(void *udata);$/;"	t
+handleFile	mkespfsimage/main.c	/^int handleFile(int f, char *name, int compression, int level) {$/;"	f
+handle_close	lib/heatshrink/heatshrink.c	/^static void handle_close(io_handle *io) {$/;"	f	file:
+handle_drop	lib/heatshrink/heatshrink.c	/^static int handle_drop(io_handle *io, size_t size) {$/;"	f	file:
+handle_open	lib/heatshrink/heatshrink.c	/^static io_handle *handle_open(char *fname, IO_mode m, size_t buf_sz) {$/;"	f	file:
+handle_read	lib/heatshrink/heatshrink.c	/^static ssize_t handle_read(io_handle *io, size_t size, uint8_t **buf) {$/;"	f	file:
+handle_sink	lib/heatshrink/heatshrink.c	/^static ssize_t handle_sink(io_handle *io, size_t size, uint8_t *input) {$/;"	f	file:
+has_literal	lib/heatshrink/heatshrink_encoder.c	/^static int has_literal(heatshrink_encoder *hse) {$/;"	f	file:
+head	user/httpd.c	/^	char head[MAX_HEAD_LEN];$/;"	m	struct:HttpdPriv	file:
+headPos	user/httpd.c	/^	int headPos;$/;"	m	struct:HttpdPriv	file:
+head_index	lib/heatshrink/heatshrink_decoder.h	/^    uint16_t head_index;        \/* head of window buffer *\/$/;"	m	struct:__anon27
+header	user/espfs.c	/^	EspFsHeader *header;$/;"	m	struct:EspFsFile	file:
+heapMINIMUM_BLOCK_SIZE	include/mem_manager.h	42;"	d
+heatshrink_decoder	lib/heatshrink/heatshrink_decoder.h	/^} heatshrink_decoder;$/;"	t	typeref:struct:__anon27
+heatshrink_decoder_alloc	lib/heatshrink/heatshrink_decoder.c	/^heatshrink_decoder *heatshrink_decoder_alloc(uint16_t input_buffer_size,$/;"	f
+heatshrink_decoder_finish	lib/heatshrink/heatshrink_decoder.c	/^HSD_finish_res heatshrink_decoder_finish(heatshrink_decoder *hsd) {$/;"	f
+heatshrink_decoder_free	lib/heatshrink/heatshrink_decoder.c	/^void heatshrink_decoder_free(heatshrink_decoder *hsd) {$/;"	f
+heatshrink_decoder_poll	lib/heatshrink/heatshrink_decoder.c	/^HSD_poll_res heatshrink_decoder_poll(heatshrink_decoder *hsd,$/;"	f
+heatshrink_decoder_reset	lib/heatshrink/heatshrink_decoder.c	/^void heatshrink_decoder_reset(heatshrink_decoder *hsd) {$/;"	f
+heatshrink_decoder_sink	lib/heatshrink/heatshrink_decoder.c	/^HSD_sink_res heatshrink_decoder_sink(heatshrink_decoder *hsd,$/;"	f
+heatshrink_encoder	lib/heatshrink/heatshrink_encoder.h	/^} heatshrink_encoder;$/;"	t	typeref:struct:__anon19
+heatshrink_encoder_alloc	lib/heatshrink/heatshrink_encoder.c	/^heatshrink_encoder *heatshrink_encoder_alloc(uint8_t window_sz2,$/;"	f
+heatshrink_encoder_finish	lib/heatshrink/heatshrink_encoder.c	/^HSE_finish_res heatshrink_encoder_finish(heatshrink_encoder *hse) {$/;"	f
+heatshrink_encoder_free	lib/heatshrink/heatshrink_encoder.c	/^void heatshrink_encoder_free(heatshrink_encoder *hse) {$/;"	f
+heatshrink_encoder_poll	lib/heatshrink/heatshrink_encoder.c	/^HSE_poll_res heatshrink_encoder_poll(heatshrink_encoder *hse,$/;"	f
+heatshrink_encoder_reset	lib/heatshrink/heatshrink_encoder.c	/^void heatshrink_encoder_reset(heatshrink_encoder *hse) {$/;"	f
+heatshrink_encoder_sink	lib/heatshrink/heatshrink_encoder.c	/^HSE_sink_res heatshrink_encoder_sink(heatshrink_encoder *hse,$/;"	f
+hitCounter	user/cgi.c	/^static long hitCounter=0;$/;"	v	file:
+hs_index	lib/heatshrink/heatshrink_encoder.h	/^struct hs_index {$/;"	s
+hsd	lib/heatshrink/test_heatshrink_static.c	/^static heatshrink_decoder hsd;$/;"	v	file:
+hse	lib/heatshrink/test_heatshrink_static.c	/^static heatshrink_encoder hse;$/;"	v	file:
+htoxl	mkespfsimage/main.c	/^int htoxl(int in) {$/;"	f
+htoxs	mkespfsimage/main.c	/^short htoxs(short in) {$/;"	f
+httpNotFoundHeader	user/httpd.c	/^static const char *httpNotFoundHeader="HTTP\/1.0 404 Not Found\\r\\nServer: esp8266-httpd\/0.1\\r\\nContent-Type: text\/plain\\r\\n\\r\\nNot Found.\\r\\n";$/;"	v	file:
+httpdConn	user/httpd.c	/^static struct espconn httpdConn;$/;"	v	typeref:struct:espconn	file:
+httpdConnectCb	user/httpd.c	/^static void ICACHE_FLASH_ATTR httpdConnectCb(void *arg) {$/;"	f	file:
+httpdDisconCb	user/httpd.c	/^static void ICACHE_FLASH_ATTR httpdDisconCb(void *arg) {$/;"	f	file:
+httpdEndHeaders	user/httpd.c	/^void ICACHE_FLASH_ATTR httpdEndHeaders(HttpdConnData *conn) {$/;"	f
+httpdFindArg	user/httpd.c	/^int ICACHE_FLASH_ATTR httpdFindArg(char *line, char *arg, char *buff, int buffLen) {$/;"	f
+httpdFindConnData	user/httpd.c	/^static HttpdConnData ICACHE_FLASH_ATTR *httpdFindConnData(void *arg) {$/;"	f	file:
+httpdGetHeader	user/httpd.c	/^int ICACHE_FLASH_ATTR httpdGetHeader(HttpdConnData *conn, char *header, char *ret, int retLen) {$/;"	f
+httpdGetMimetype	user/httpd.c	/^const char ICACHE_FLASH_ATTR *httpdGetMimetype(char *url) {$/;"	f
+httpdHeader	user/httpd.c	/^void ICACHE_FLASH_ATTR httpdHeader(HttpdConnData *conn, const char *field, const char *val) {$/;"	f
+httpdHexVal	user/httpd.c	/^static int httpdHexVal(char c) {$/;"	f	file:
+httpdInit	user/httpd.c	/^void ICACHE_FLASH_ATTR httpdInit(HttpdBuiltInUrl *fixedUrls, int port) {$/;"	f
+httpdParseHeader	user/httpd.c	/^static void ICACHE_FLASH_ATTR httpdParseHeader(char *h, HttpdConnData *conn) {$/;"	f	file:
+httpdReconCb	user/httpd.c	/^static void ICACHE_FLASH_ATTR httpdReconCb(void *arg, sint8 err) {$/;"	f	file:
+httpdRecvCb	user/httpd.c	/^static void ICACHE_FLASH_ATTR httpdRecvCb(void *arg, char *data, unsigned short len) {$/;"	f	file:
+httpdRedirect	user/httpd.c	/^void ICACHE_FLASH_ATTR httpdRedirect(HttpdConnData *conn, char *newUrl) {$/;"	f
+httpdRetireConn	user/httpd.c	/^static void ICACHE_FLASH_ATTR httpdRetireConn(HttpdConnData *conn) {$/;"	f	file:
+httpdSend	user/httpd.c	/^int ICACHE_FLASH_ATTR httpdSend(HttpdConnData *conn, const char *data, int len) {$/;"	f
+httpdSendResp	user/httpd.c	/^static void ICACHE_FLASH_ATTR httpdSendResp(HttpdConnData *conn) {$/;"	f	file:
+httpdSentCb	user/httpd.c	/^static void ICACHE_FLASH_ATTR httpdSentCb(void *arg) {$/;"	f	file:
+httpdStartResponse	user/httpd.c	/^void ICACHE_FLASH_ATTR httpdStartResponse(HttpdConnData *conn, int code) {$/;"	f
+httpdTcp	user/httpd.c	/^static esp_tcp httpdTcp;$/;"	v	file:
+httpdUrlDecode	user/httpd.c	/^int httpdUrlDecode(char *val, int valLen, char *ret, int retLen) {$/;"	f
+in	lib/heatshrink/heatshrink.c	/^    io_handle *in;$/;"	m	struct:__anon13	file:
+in_fname	lib/heatshrink/heatshrink.c	/^    char *in_fname;$/;"	m	struct:__anon13	file:
+index	lib/heatshrink/heatshrink_encoder.h	/^    int16_t index[2 << HEATSHRINK_STATIC_WINDOW_BITS];$/;"	m	struct:hs_index
+index	lib/heatshrink/heatshrink_encoder.h	/^    int16_t index[];$/;"	m	struct:hs_index
+input_buffer_size	lib/heatshrink/heatshrink_decoder.h	/^    uint16_t input_buffer_size; \/* input buffer size *\/$/;"	m	struct:__anon27
+input_index	lib/heatshrink/heatshrink_decoder.h	/^    uint16_t input_index;       \/* offset to next unprocessed input byte *\/$/;"	m	struct:__anon27
+input_size	lib/heatshrink/heatshrink_decoder.h	/^    uint16_t input_size;        \/* bytes in input buffer *\/$/;"	m	struct:__anon27
+input_size	lib/heatshrink/heatshrink_encoder.h	/^    uint16_t input_size;        \/* bytes in input buffer *\/$/;"	m	struct:__anon19
+integration	lib/heatshrink/test_heatshrink_dynamic.c	/^SUITE(integration);$/;"	v
+integration	lib/heatshrink/test_heatshrink_static.c	/^SUITE(integration);$/;"	v
+ioInit	user/io.c	/^void ioInit() {$/;"	f
+ioLed	user/io.c	/^void ICACHE_FLASH_ATTR ioLed(int ena, int num) {$/;"	f
+io_handle	lib/heatshrink/heatshrink.c	/^} io_handle;$/;"	t	typeref:struct:__anon12	file:
+is_finishing	lib/heatshrink/heatshrink_encoder.c	/^static int is_finishing(heatshrink_encoder *hse) {$/;"	f	file:
+led	user/io.c	/^static int led[MAX_LED]={LEDGPIO,LED2GPIO};$/;"	v	file:
+limit	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^    int limit;$/;"	m	struct:__anon28	file:
+log_lvl	lib/heatshrink/test_heatshrink_dynamic.c	/^    uint8_t log_lvl;$/;"	m	struct:__anon20	file:
+lookahead_sz2	lib/heatshrink/heatshrink.c	/^    uint8_t lookahead_sz2;$/;"	m	struct:__anon13	file:
+lookahead_sz2	lib/heatshrink/heatshrink_decoder.h	/^    uint8_t lookahead_sz2;      \/* lookahead bits *\/$/;"	m	struct:__anon27
+lookahead_sz2	lib/heatshrink/heatshrink_encoder.h	/^    uint8_t lookahead_sz2;      \/* 2^n size of lookahead *\/$/;"	m	struct:__anon19
+lookahead_sz2	lib/heatshrink/test_heatshrink_dynamic.c	/^    uint8_t lookahead_sz2;$/;"	m	struct:__anon20	file:
+magic	mkespfsimage/espfsformat.h	/^	int32_t magic;$/;"	m	struct:__anon31
+main	espfstest/main.c	/^int main(int argc, char **argv) {$/;"	f
+main	lib/heatshrink/greatest.h	/^int main(int argc, char **argv) {$/;"	f
+main	lib/heatshrink/heatshrink.c	/^int main(int argc, char **argv) {$/;"	f
+main	lib/heatshrink/test_heatshrink_dynamic.c	/^int main(int argc, char **argv) {$/;"	f
+main	lib/heatshrink/test_heatshrink_static.c	/^int main(int argc, char **argv) {$/;"	f
+main	mkespfsimage/main.c	/^int main(int argc, char **argv) {$/;"	f
+match_length	lib/heatshrink/heatshrink_encoder.h	/^    uint16_t match_length;$/;"	m	struct:__anon19
+match_pos	lib/heatshrink/heatshrink_encoder.h	/^    uint16_t match_pos;$/;"	m	struct:__anon19
+match_scan_index	lib/heatshrink/heatshrink_encoder.h	/^    uint16_t match_scan_index;$/;"	m	struct:__anon19
+memcpy	user/heatshrink_decoder.c	17;"	d	file:
+memcpyAligned	user/espfs.c	/^void ICACHE_FLASH_ATTR memcpyAligned(char *dst, char *src, int len) {$/;"	f
+memset	user/heatshrink_decoder.c	16;"	d	file:
+mimeTypes	user/httpd.c	/^static const MimeMap mimeTypes[]={$/;"	v	file:
+mimetype	user/httpd.c	/^	const char *mimetype;$/;"	m	struct:__anon34	file:
+mode	lib/heatshrink/heatshrink.c	/^    IO_mode mode;$/;"	m	struct:__anon12	file:
+msg	lib/heatshrink/greatest.h	/^    const char *msg;$/;"	m	struct:greatest_run_info
+myPassFn	user/user_main.c	/^int myPassFn(HttpdConnData *connData, int no, char *user, int userLen, char *pass, int passLen) {$/;"	f
+nameLen	mkespfsimage/espfsformat.h	/^	int16_t nameLen;$/;"	m	struct:__anon31
+noAps	user/cgiwifi.c	/^	int noAps;$/;"	m	struct:__anon36	file:
+on_final_literal	lib/heatshrink/heatshrink_encoder.c	/^static int on_final_literal(heatshrink_encoder *hse) {$/;"	f	file:
+os_free	user/espfs.c	36;"	d	file:
+os_malloc	user/espfs.c	35;"	d	file:
+os_memcpy	user/espfs.c	37;"	d	file:
+os_printf	user/espfs.c	41;"	d	file:
+os_strcmp	user/espfs.c	39;"	d	file:
+os_strcpy	user/espfs.c	40;"	d	file:
+os_strncmp	user/espfs.c	38;"	d	file:
+out	lib/heatshrink/heatshrink.c	/^    io_handle *out;$/;"	m	struct:__anon13	file:
+out_fname	lib/heatshrink/heatshrink.c	/^    char *out_fname;$/;"	m	struct:__anon13	file:
+outgoing_bits	lib/heatshrink/heatshrink_encoder.h	/^    uint16_t outgoing_bits;     \/* enqueued outgoing bits *\/$/;"	m	struct:__anon19
+outgoing_bits_count	lib/heatshrink/heatshrink_encoder.h	/^    uint8_t outgoing_bits_count;$/;"	m	struct:__anon19
+output_count	lib/heatshrink/heatshrink_decoder.h	/^    uint16_t output_count;      \/* how many bytes to output *\/$/;"	m	struct:__anon27
+output_index	lib/heatshrink/heatshrink_decoder.h	/^    uint16_t output_index;      \/* index for bytes to output *\/$/;"	m	struct:__anon27
+output_info	lib/heatshrink/heatshrink_decoder.c	/^} output_info;$/;"	t	typeref:struct:__anon15	file:
+output_info	lib/heatshrink/heatshrink_encoder.c	/^} output_info;$/;"	t	typeref:struct:__anon23	file:
+output_size	lib/heatshrink/heatshrink_decoder.c	/^    size_t *output_size;        \/* bytes pushed to buffer, so far *\/$/;"	m	struct:__anon15	file:
+output_size	lib/heatshrink/heatshrink_encoder.c	/^    size_t *output_size;        \/* bytes pushed to buffer, so far *\/$/;"	m	struct:__anon23	file:
+pTrxBuff	include/uart_hw.h	/^    uint8   *pTrxBuff;$/;"	m	struct:__anon8
+passed	lib/heatshrink/greatest.h	/^    unsigned int passed;$/;"	m	struct:greatest_run_info
+passed	lib/heatshrink/greatest.h	/^    unsigned int passed;$/;"	m	struct:greatest_suite_info
+pdFALSE	include/mem_manager.h	15;"	d
+pdTRUE	include/mem_manager.h	16;"	d
+portBYTE_ALIGNMENT	include/mem_manager.h	14;"	d
+portBYTE_ALIGNMENT_MASK	include/mem_manager.h	20;"	d
+portBYTE_ALIGNMENT_MASK	include/mem_manager.h	24;"	d
+portBYTE_ALIGNMENT_MASK	include/mem_manager.h	28;"	d
+portBYTE_ALIGNMENT_MASK	include/mem_manager.h	32;"	d
+portPOINTER_SIZE_TYPE	include/mem_manager.h	40;"	d
+posComp	user/espfs.c	/^	char *posComp;$/;"	m	struct:EspFsFile	file:
+posDecomp	user/espfs.c	/^	int32_t posDecomp;$/;"	m	struct:EspFsFile	file:
+posStart	user/espfs.c	/^	char *posStart;$/;"	m	struct:EspFsFile	file:
+postBuff	user/httpd.h	/^	char *postBuff;$/;"	m	struct:HttpdConnData
+postLen	user/httpd.h	/^	int postLen;$/;"	m	struct:HttpdConnData
+postPos	user/httpd.c	/^	int postPos;$/;"	m	struct:HttpdPriv	file:
+post_suite	lib/heatshrink/greatest.h	/^    clock_t post_suite;$/;"	m	struct:greatest_suite_info
+post_test	lib/heatshrink/greatest.h	/^    clock_t post_test;$/;"	m	struct:greatest_suite_info
+pre_suite	lib/heatshrink/greatest.h	/^    clock_t pre_suite;$/;"	m	struct:greatest_suite_info
+pre_test	lib/heatshrink/greatest.h	/^    clock_t pre_test;$/;"	m	struct:greatest_suite_info
+priv	user/httpd.h	/^	HttpdPriv *priv;$/;"	m	struct:HttpdConnData
+proc_args	lib/heatshrink/heatshrink.c	/^static void proc_args(config *cfg, int argc, char **argv) {$/;"	f	file:
+progress_cb	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^progress_cb(struct theft_trial_info *info, void *env) {$/;"	f	file:
+prop_decoder_should_always_make_progress	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^prop_decoder_should_always_make_progress(void *instance) {$/;"	f	file:
+prop_encoded_and_decoded_data_should_match	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^static theft_trial_res prop_encoded_and_decoded_data_should_match(void *input) {$/;"	f	file:
+prop_encoder_should_always_make_progress	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^prop_encoder_should_always_make_progress(void *instance) {$/;"	f	file:
+prop_encoding_data_should_never_increase_it_by_more_than_an_eighth_at_worst	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^prop_encoding_data_should_never_increase_it_by_more_than_an_eighth_at_worst(void *input) {$/;"	f	file:
+prop_should_not_get_stuck	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^static theft_trial_res prop_should_not_get_stuck(void *input) {$/;"	f	file:
+properties	lib/heatshrink/test_heatshrink_dynamic.c	/^SUITE(properties);$/;"	v
+properties	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^SUITE(properties);$/;"	v
+pseudorandom_data_should_match	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST pseudorandom_data_should_match(uint32_t size, uint32_t seed, cfg_info *cfg) {$/;"	f
+pseudorandom_data_should_match	lib/heatshrink/test_heatshrink_static.c	/^TEST pseudorandom_data_should_match(uint32_t size, uint32_t seed) {$/;"	f
+push_bits	lib/heatshrink/heatshrink_encoder.c	/^static void push_bits(heatshrink_encoder *hse, uint8_t count, uint8_t bits,$/;"	f	file:
+push_byte	lib/heatshrink/heatshrink_decoder.c	/^static void push_byte(heatshrink_decoder *hsd, output_info *oi, uint8_t byte) {$/;"	f	file:
+push_literal_byte	lib/heatshrink/heatshrink_encoder.c	/^static void push_literal_byte(heatshrink_encoder *hse, output_info *oi) {$/;"	f	file:
+push_outgoing_bits	lib/heatshrink/heatshrink_encoder.c	/^static uint8_t push_outgoing_bits(heatshrink_encoder *hse, output_info *oi) {$/;"	f	file:
+pxNextFreeBlock	include/mem_manager.h	/^	struct A_BLOCK_LINK *pxNextFreeBlock;	\/\/The next free block in the list. $/;"	m	struct:A_BLOCK_LINK	typeref:struct:A_BLOCK_LINK::A_BLOCK_LINK
+rbuf	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^} rbuf;$/;"	t	typeref:struct:__anon29	file:
+rbuf_alloc_cb	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^static void *rbuf_alloc_cb(struct theft *t, theft_hash seed, void *env) {$/;"	f	file:
+rbuf_free_cb	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^static void rbuf_free_cb(void *instance, void *env) {$/;"	f	file:
+rbuf_hash_cb	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^static uint64_t rbuf_hash_cb(void *instance, void *env) {$/;"	f	file:
+rbuf_info	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^static struct theft_type_info rbuf_info = {$/;"	v	typeref:struct:theft_type_info	file:
+rbuf_print_cb	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^static void rbuf_print_cb(FILE *f, void *instance, void *env) {$/;"	f	file:
+rbuf_shrink_cb	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^static void *rbuf_shrink_cb(void *instance, uint32_t tactic, void *env) {$/;"	f	file:
+read	lib/heatshrink/heatshrink.c	/^    size_t read;                \/* read index *\/$/;"	m	struct:__anon12	file:
+reassTimerCb	user/cgiwifi.c	/^static void ICACHE_FLASH_ATTR reassTimerCb(void *arg) {$/;"	f	file:
+regression_backreference_counters_should_not_roll_over	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST regression_backreference_counters_should_not_roll_over(void) {$/;"	f
+regression_index_fail	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST regression_index_fail(void) {$/;"	f
+relay_param	user/cgi.h	/^char relay_param[8];$/;"	v
+relay_reverse	user/io.h	/^static int relay_reverse;$/;"	v
+report	lib/heatshrink/heatshrink.c	/^static void report(config *cfg) {$/;"	f	file:
+resetBtnTimerCb	user/io.c	/^static void ICACHE_FLASH_ATTR resetBtnTimerCb(void *arg) {$/;"	f	file:
+resetBtntimer	user/io.c	/^static ETSTimer resetBtntimer;$/;"	v	file:
+resetTimerCb	user/cgiwifi.c	/^static void ICACHE_FLASH_ATTR resetTimerCb(void *arg) {$/;"	f	file:
+rssi	user/cgiwifi.c	/^	char rssi;$/;"	m	struct:__anon35	file:
+save_backlog	lib/heatshrink/heatshrink_encoder.c	/^static void save_backlog(heatshrink_encoder *hse) {$/;"	f	file:
+scanInProgress	user/cgiwifi.c	/^	char scanInProgress; \/\/if 1, don't access the underlying stuff from the webpage.$/;"	m	struct:__anon36	file:
+search_index	lib/heatshrink/heatshrink_encoder.h	/^        struct hs_index search_index;$/;"	m	struct:__anon19	typeref:struct:__anon19::hs_index
+search_index	lib/heatshrink/heatshrink_encoder.h	/^    struct hs_index *search_index;$/;"	m	struct:__anon19	typeref:struct:__anon19::hs_index
+sendBuff	user/httpd.c	/^	char *sendBuff;$/;"	m	struct:HttpdPriv	file:
+sendBuffLen	user/httpd.c	/^	int sendBuffLen;$/;"	m	struct:HttpdPriv	file:
+setup	lib/heatshrink/greatest.h	/^    greatest_setup_cb *setup;$/;"	m	struct:greatest_run_info
+setup_cb	lib/heatshrink/greatest.h	/^static void setup_cb(void *data) {$/;"	f
+setup_udata	lib/heatshrink/greatest.h	/^    void *setup_udata;$/;"	m	struct:greatest_run_info
+sixty_four_k	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST sixty_four_k(void) {$/;"	f
+size	lib/heatshrink/heatshrink.c	/^    size_t size;$/;"	m	struct:__anon12	file:
+size	lib/heatshrink/heatshrink_encoder.h	/^    uint16_t size;$/;"	m	struct:hs_index
+size	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^    size_t size;$/;"	m	struct:__anon29	file:
+skipped	lib/heatshrink/greatest.h	/^    unsigned int skipped;$/;"	m	struct:greatest_run_info
+skipped	lib/heatshrink/greatest.h	/^    unsigned int skipped;$/;"	m	struct:greatest_suite_info
+small_input_buffer_should_not_impact_decoder_correctness	lib/heatshrink/test_heatshrink_dynamic.c	/^TEST small_input_buffer_should_not_impact_decoder_correctness(void) {$/;"	f
+ssid	user/cgiwifi.c	/^	char ssid[32];$/;"	m	struct:__anon35	file:
+st_backref_count_lsb	lib/heatshrink/heatshrink_decoder.c	/^static HSD_state st_backref_count_lsb(heatshrink_decoder *hsd) {$/;"	f	file:
+st_backref_count_msb	lib/heatshrink/heatshrink_decoder.c	/^static HSD_state st_backref_count_msb(heatshrink_decoder *hsd) {$/;"	f	file:
+st_backref_index_lsb	lib/heatshrink/heatshrink_decoder.c	/^static HSD_state st_backref_index_lsb(heatshrink_decoder *hsd) {$/;"	f	file:
+st_backref_index_msb	lib/heatshrink/heatshrink_decoder.c	/^static HSD_state st_backref_index_msb(heatshrink_decoder *hsd) {$/;"	f	file:
+st_check_for_input	lib/heatshrink/heatshrink_decoder.c	/^static HSD_state st_check_for_input(heatshrink_decoder *hsd) {$/;"	f	file:
+st_flush_bit_buffer	lib/heatshrink/heatshrink_encoder.c	/^static HSE_state st_flush_bit_buffer(heatshrink_encoder *hse,$/;"	f	file:
+st_input_available	lib/heatshrink/heatshrink_decoder.c	/^static HSD_state st_input_available(heatshrink_decoder *hsd) {$/;"	f	file:
+st_save_backlog	lib/heatshrink/heatshrink_encoder.c	/^static HSE_state st_save_backlog(heatshrink_encoder *hse) {$/;"	f	file:
+st_step_search	lib/heatshrink/heatshrink_encoder.c	/^static HSE_state st_step_search(heatshrink_encoder *hse) {$/;"	f	file:
+st_yield_backref	lib/heatshrink/heatshrink_decoder.c	/^static HSD_state st_yield_backref(heatshrink_decoder *hsd,$/;"	f	file:
+st_yield_br_index	lib/heatshrink/heatshrink_encoder.c	/^static HSE_state st_yield_br_index(heatshrink_encoder *hse,$/;"	f	file:
+st_yield_br_length	lib/heatshrink/heatshrink_encoder.c	/^static HSE_state st_yield_br_length(heatshrink_encoder *hse,$/;"	f	file:
+st_yield_literal	lib/heatshrink/heatshrink_decoder.c	/^static HSD_state st_yield_literal(heatshrink_decoder *hsd,$/;"	f	file:
+st_yield_literal	lib/heatshrink/heatshrink_encoder.c	/^static HSE_state st_yield_literal(heatshrink_encoder *hse,$/;"	f	file:
+st_yield_tag_bit	lib/heatshrink/heatshrink_encoder.c	/^static HSE_state st_yield_tag_bit(heatshrink_encoder *hse,$/;"	f	file:
+state	lib/heatshrink/heatshrink_decoder.h	/^    uint8_t state;              \/* current state machine node *\/$/;"	m	struct:__anon27
+state	lib/heatshrink/heatshrink_encoder.h	/^    uint8_t state;              \/* current state machine node *\/$/;"	m	struct:__anon19
+state_names	lib/heatshrink/heatshrink_decoder.c	/^static const char *state_names[] = {$/;"	v	file:
+state_names	lib/heatshrink/heatshrink_encoder.c	/^static const char *state_names[] = {$/;"	v	file:
+stconf	user/cgiwifi.c	/^static struct station_config stconf;$/;"	v	typeref:struct:station_config	file:
+stdoutInit	user/stdout.c	/^void stdoutInit() {$/;"	f
+stdoutPutchar	user/stdout.c	/^static void ICACHE_FLASH_ATTR stdoutPutchar(char c) {$/;"	f	file:
+stdoutUartTxd	user/stdout.c	/^static void ICACHE_FLASH_ATTR stdoutUartTxd(char c) {$/;"	f	file:
+suite	lib/heatshrink/greatest.h	/^    greatest_suite_info suite;$/;"	m	struct:greatest_run_info
+suite_filter	lib/heatshrink/greatest.h	/^    char *suite_filter;$/;"	m	struct:greatest_run_info
+t	html/wifi/140medley.min.js	/^var t=function(a,b){return function(c,d){return a.replace(\/#{([^}]*)}\/g,function(a,f){return Function("x","with(x)return "+f).call(c,d||b||{})})}},s=function(a,b){return b?{get:function(c){return a[c]&&b.parse(a[c])},set:function(c,d){a[c]=b.stringify(d)}}:{}}(this.localStorage||{},JSON),p=function(a,b,c,d){c=c||document;d=c[b="on"+b];a=c[b]=function(e){d=d&&d(e=e||c.event);return(a=a&&b(e))?b:d};c=this},m=function(a,b,c){b=document;c=b.createElement("p");c.innerHTML=a;for(a=b.createDocumentFragment();b=$/;"	f
+teardown	lib/heatshrink/greatest.h	/^    greatest_teardown_cb *teardown;$/;"	m	struct:greatest_run_info
+teardown_cb	lib/heatshrink/greatest.h	/^static void teardown_cb(void *data) {$/;"	f
+teardown_udata	lib/heatshrink/greatest.h	/^    void *teardown_udata;$/;"	m	struct:greatest_run_info
+test_env	lib/heatshrink/test_heatshrink_dynamic_theft.c	/^} test_env;$/;"	t	typeref:struct:__anon28	file:
+test_filter	lib/heatshrink/greatest.h	/^    char *test_filter;$/;"	m	struct:greatest_run_info
+tests_run	lib/heatshrink/greatest.h	/^    unsigned int tests_run;     \/* total test count *\/$/;"	m	struct:greatest_run_info
+tests_run	lib/heatshrink/greatest.h	/^    unsigned int tests_run;$/;"	m	struct:greatest_suite_info
+token	user/httpdespfs.c	/^	char token[64];$/;"	m	struct:__anon33	file:
+tokenPos	user/httpdespfs.c	/^	int tokenPos;$/;"	m	struct:__anon33	file:
+total	lib/heatshrink/heatshrink.c	/^    size_t total;$/;"	m	struct:__anon12	file:
+tplArg	user/httpdespfs.c	/^	void *tplArg;$/;"	m	struct:__anon33	file:
+tplCounter	user/cgi.c	/^void ICACHE_FLASH_ATTR tplCounter(HttpdConnData *connData, char *token, void **arg) {$/;"	f
+tplLed	user/cgi.c	/^void ICACHE_FLASH_ATTR tplLed(HttpdConnData *connData, char *token, void **arg) {$/;"	f
+tplWlan	user/cgiwifi.c	/^void ICACHE_FLASH_ATTR tplWlan(HttpdConnData *connData, char *token, void **arg) {$/;"	f
+url	lib/heatshrink/heatshrink.c	/^static const char url[] = HEATSHRINK_URL;$/;"	v	file:
+url	user/httpd.h	/^	char *url;$/;"	m	struct:HttpdConnData
+url	user/httpd.h	/^	const char *url;$/;"	m	struct:__anon32
+usage	lib/heatshrink/heatshrink.c	/^static void usage(void) {$/;"	f	file:
+user_init	user/user_main.c	/^void user_init(void) {$/;"	f
+vecho	Makefile	/^vecho := @echo$/;"	m
+vecho	Makefile	/^vecho := @true$/;"	m
+verbose	lib/heatshrink/heatshrink.c	/^    uint8_t verbose;$/;"	m	struct:__anon13	file:
+version_major	lib/heatshrink/heatshrink.c	/^static const int version_major = HEATSHRINK_VERSION_MAJOR;$/;"	v	file:
+version_minor	lib/heatshrink/heatshrink.c	/^static const int version_minor = HEATSHRINK_VERSION_MINOR;$/;"	v	file:
+version_patch	lib/heatshrink/heatshrink.c	/^static const int version_patch = HEATSHRINK_VERSION_PATCH;$/;"	v	file:
+width	lib/heatshrink/greatest.h	/^    unsigned int width;$/;"	m	struct:greatest_run_info
+wifiScanDoneCb	user/cgiwifi.c	/^void ICACHE_FLASH_ATTR wifiScanDoneCb(void *arg, STATUS status) {$/;"	f
+wifiStartScan	user/cgiwifi.c	/^static void ICACHE_FLASH_ATTR wifiStartScan() {$/;"	f	file:
+window_sz2	lib/heatshrink/heatshrink.c	/^    uint8_t window_sz2;$/;"	m	struct:__anon13	file:
+window_sz2	lib/heatshrink/heatshrink_decoder.h	/^    uint8_t window_sz2;         \/* window buffer bits *\/$/;"	m	struct:__anon27
+window_sz2	lib/heatshrink/heatshrink_encoder.h	/^    uint8_t window_sz2;         \/* 2^n size of window *\/$/;"	m	struct:__anon19
+window_sz2	lib/heatshrink/test_heatshrink_dynamic.c	/^    uint8_t window_sz2;$/;"	m	struct:__anon20	file:
+xBlockLink	include/mem_manager.h	/^} xBlockLink;$/;"	t	typeref:struct:A_BLOCK_LINK
+xBlockSize	include/mem_manager.h	/^	size_t xBlockSize;						\/\/The size of the free block. $/;"	m	struct:A_BLOCK_LINK
+xmitSendBuff	user/httpd.c	/^static void ICACHE_FLASH_ATTR xmitSendBuff(HttpdConnData *conn) {$/;"	f	file:

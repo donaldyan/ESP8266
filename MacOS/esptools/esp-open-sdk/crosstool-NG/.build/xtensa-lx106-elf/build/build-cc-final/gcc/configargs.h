@@ -1,0 +1,7 @@
+/* Generated automatically. */
+static const char configuration_arguments[] = "/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/configure --build=x86_64-build_apple-darwin14.0.0 --host=x86_64-build_apple-darwin14.0.0 --target=xtensa-lx106-elf --prefix=/esptools/esp-open-sdk/xtensa-lx106-elf --with-local-prefix=/esptools/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot --disable-libmudflap --with-sysroot=/esptools/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG 1.20.0' --disable-__cxa_atexit --with-gmp=/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-mpfr=/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-mpc=/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-isl=/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-cloog=/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-libelf=/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --enable-lto --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-nls --disable-multilib --enable-languages=c,c++";
+static const char thread_model[] = "single";
+
+static const struct {
+  const char *name, *value;
+} configure_default_options[] = { { NULL, NULL} };

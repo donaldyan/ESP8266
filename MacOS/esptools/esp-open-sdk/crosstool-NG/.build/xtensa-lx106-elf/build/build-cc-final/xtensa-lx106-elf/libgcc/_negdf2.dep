@@ -1,0 +1,14 @@
+_negdf2.o: \
+ /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/config/xtensa/lib1funcs.S \
+ _negdf2.vis \
+ /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/../include/xtensa-config.h \
+ /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/config/xtensa/ieee754-df.S \
+ /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/config/xtensa/ieee754-sf.S
+
+_negdf2.vis:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/../include/xtensa-config.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/config/xtensa/ieee754-df.S:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/config/xtensa/ieee754-sf.S:

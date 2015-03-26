@@ -1,0 +1,2 @@
+	.hidden __floatundidf
+	.hidden __floatdidf

@@ -1,0 +1,41 @@
+traditional.o: \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/traditional.c \
+  config.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/system.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/filenames.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/hashtab.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/ansidecl.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/libiberty.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/safe-ctype.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/include/cpplib.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/include/symtab.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/obstack.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/include/line-map.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/internal.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/include/cpp-id-data.h
+
+config.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/system.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/filenames.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/hashtab.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/ansidecl.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/libiberty.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/safe-ctype.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/include/cpplib.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/include/symtab.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/obstack.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/include/line-map.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/internal.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/include/cpp-id-data.h:

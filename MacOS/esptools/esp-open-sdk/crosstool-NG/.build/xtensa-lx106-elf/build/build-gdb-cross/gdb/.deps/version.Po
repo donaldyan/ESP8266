@@ -1,0 +1,4 @@
+version.o: version.c \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gdb-7.5.1/gdb/version.h
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gdb-7.5.1/gdb/version.h:

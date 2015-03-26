@@ -1,0 +1,11 @@
+xtensa-modules.lo: \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/binutils-2.24/bfd/xtensa-modules.c \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/binutils-2.24/bfd/../include/ansidecl.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/binutils-2.24/bfd/../include/xtensa-isa.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/binutils-2.24/bfd/../include/xtensa-isa-internal.h
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/binutils-2.24/bfd/../include/ansidecl.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/binutils-2.24/bfd/../include/xtensa-isa.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/binutils-2.24/bfd/../include/xtensa-isa-internal.h:

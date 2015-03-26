@@ -1,0 +1,2 @@
+is-ranlib.o: \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/binutils-2.24/binutils/is-ranlib.c

@@ -1,0 +1,8 @@
+xtensa-config.o: \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gdb-7.5.1/gdb/xtensa-config.c \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gdb-7.5.1/gdb/../include/xtensa-config.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gdb-7.5.1/gdb/xtensa-tdep.h
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gdb-7.5.1/gdb/../include/xtensa-config.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gdb-7.5.1/gdb/xtensa-tdep.h:

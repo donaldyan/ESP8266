@@ -1,0 +1,5 @@
+libisl_la-isl_version.lo: \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/isl-0.12.2/isl_version.c \
+  gitversion.h
+
+gitversion.h:

@@ -1,0 +1,6 @@
+libcloog_isl_la-version.lo: source/version.c version.h \
+  include/cloog/version.h
+
+version.h:
+
+include/cloog/version.h:

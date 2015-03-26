@@ -1,0 +1,5 @@
+crti.o: \
+ /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/config/xtensa/crti.S \
+ /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/../include/xtensa-config.h
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/../include/xtensa-config.h:

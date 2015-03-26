@@ -1,0 +1,11 @@
+flonum-mult.o: \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/binutils-2.24/gas/flonum-mult.c \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/binutils-2.24/gas/../include/ansidecl.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/binutils-2.24/gas/flonum.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/binutils-2.24/gas/bignum.h
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/binutils-2.24/gas/../include/ansidecl.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/binutils-2.24/gas/flonum.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/binutils-2.24/gas/bignum.h:

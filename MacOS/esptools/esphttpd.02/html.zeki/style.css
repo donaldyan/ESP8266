@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #cccccc;
+}
+
+#header {
+    font-size: 30px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 1%;
+    padding-bottom: 2%;
+    font-weight: 100;
+}
+#footer {
+    font-size: 25px;
+    width: 85%;
+    background-color: black;
+    color: white;
+    font-weight: 100;
+    position: absolute;
+    top: 100%;
+    padding-top: 20px;
+    height: 150px;
+    padding-left: 15%;
+}
+#heavy {
+    font-weight: 100;
+    font-size: 64px;
+}
+#nav {
+    background-color: #cccccc;
+    height: 800px;
+    width: 200px;
+    float: left;
+    border-top: 15px solid #cccccc;
+    border-left: 15px solid #cccccc;
+    text-indent: 5px;
+    font-weight: 100;
+}
+.tab{
+    height: 600px;
+    width: 80%;
+    background-color: #ffffff;
+    border-top: 15px solid #cccccc;
+    border-bottom: 10px solid #cccccc;
+    float: left;
+    font-size: 20px;
+    padding-left: 40px;
+    font-weight: 200;
+}
+.button{
+    border: none;
+    font-size: 30px;
+    width: 100%;
+    cursor: pointer;
+    height: 60px;
+    line-height: 60px;
+}
+.hometab{
+    background-color: #ffffff;
+}
+.switchestab{
+    background-color: #7777AA;
+}
+.networkstab{
+    background-color: #7777AA;
+}
+.home{
+    display: inline;
+}
+.switches{
+    display: none;
+}
+.networks{
+    display: none;
+}
+#submit-button{
+    background-color: #222244;
+    color: white;
+    font-size: 20px;
+    border: 1px solid gray;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+}
+#submit-button:hover{
+    background-color: #4444bb;
+}
+.left{
+    float: left;
+    margin-left: 20px;
+}
+#subtext{
+    left: 50%;
+    margin-top: 10px;
+}

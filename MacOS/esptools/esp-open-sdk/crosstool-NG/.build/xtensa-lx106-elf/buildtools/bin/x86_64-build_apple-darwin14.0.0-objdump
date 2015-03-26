@@ -1,0 +1,2 @@
+#!/bin/bash
+exec '/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/tools/bin/objdump' "${@}"

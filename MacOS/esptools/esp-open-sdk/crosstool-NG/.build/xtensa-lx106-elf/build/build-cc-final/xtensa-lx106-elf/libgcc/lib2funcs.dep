@@ -1,0 +1,8 @@
+lib2funcs.o: \
+ /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/config/xtensa/lib2funcs.S \
+ lib2funcs.vis \
+ /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/../include/xtensa-config.h
+
+lib2funcs.vis:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/../include/xtensa-config.h:

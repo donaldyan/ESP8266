@@ -1,0 +1,1 @@
+x86_64-build_apple-darwin14.0.0-g++   -O2 -g -pipe  -DIN_GCC -DCROSS_DIRECTORY_STRUCTURE  -fno-exceptions -fno-rtti -fasynchronous-unwind-tables -W -Wall -Wno-narrowing -Wwrite-strings -Wcast-qual -Wmissing-format-attribute -pedantic -Wno-long-long -Wno-variadic-macros -Wno-overlength-strings   -DHAVE_CONFIG_H -lstdc++ -lm

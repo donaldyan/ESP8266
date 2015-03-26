@@ -1,0 +1,26 @@
+mkdeps.o: \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/mkdeps.c \
+  config.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/system.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/filenames.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/hashtab.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/ansidecl.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/libiberty.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/safe-ctype.h \
+  /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/include/mkdeps.h
+
+config.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/system.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/filenames.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/hashtab.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/ansidecl.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/libiberty.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/../include/safe-ctype.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libcpp/include/mkdeps.h:

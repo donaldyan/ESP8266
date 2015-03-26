@@ -1,0 +1,13 @@
+export install=/usr/bin/install -c
+export bash=/bin/bash
+export awk=/opt/local/bin/gawk
+export grep=/opt/local/bin/grep
+export make=/usr/bin/make
+export sed=/opt/local/bin/gsed
+export libtool=/opt/local/bin/glibtool
+export libtoolize=/opt/local/bin/glibtoolize
+export objcopy=/opt/local/bin/gobjcopy
+export objdump=/opt/local/bin/gobjdump
+export readelf=/opt/local/bin/greadelf
+export patch=/usr/bin/patch
+export gperf=/opt/local/bin/gperf

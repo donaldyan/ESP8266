@@ -1,0 +1,34 @@
+unwind-c.o: \
+ /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/unwind-c.c \
+ ../.././gcc/tconfig.h ../.././gcc/auto-host.h \
+ /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/../include/ansidecl.h \
+ /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/../gcc/tsystem.h \
+ /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/build/build-cc-final/gcc/include/stddef.h \
+ /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/build/build-cc-final/gcc/include/float.h \
+ /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/../include/filenames.h \
+ /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/../include/hashtab.h \
+ /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/../include/ansidecl.h \
+ unwind.h \
+ /Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/unwind-pe.h
+
+../.././gcc/tconfig.h:
+
+../.././gcc/auto-host.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/../include/ansidecl.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/../gcc/tsystem.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/build/build-cc-final/gcc/include/stddef.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/build/build-cc-final/gcc/include/float.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/../include/filenames.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/../include/hashtab.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/../include/ansidecl.h:
+
+unwind.h:
+
+/Volumes/ESPTools/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.2/libgcc/unwind-pe.h:
